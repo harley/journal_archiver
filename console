@@ -1,0 +1,1 @@
+irb -r "./spec/spec_helper"
