@@ -7,5 +7,5 @@ group :test do
   gem 'guard'
   gem 'guard-rspec'
   gem 'vcr'
-  gem 'webmock'
+  gem 'webmock', require: false
 end

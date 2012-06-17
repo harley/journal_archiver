@@ -14,4 +14,8 @@ class Journal
     dir = File.join(base_dir, name)
     Dir.mkdir(dir) unless File.exists?(dir)
   end
+
+  def get_issues
+    []
+  end
 end

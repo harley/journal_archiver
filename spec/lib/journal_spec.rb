@@ -28,4 +28,16 @@ describe Journal do
       response.should include "google.com"
     end
   end
+
+  describe "#get_issues" do
+    let(:jep_journal) { Journal.new name: "Journal of Economic Perspectives", url: "http://www.aeaweb.org/jep/contents/index.php" }
+    before do
+      @agent = Mechanize.new
+    end
+
+    it "should return issues" do
+      issues = journal.get_issues
+      issues.class.should == Array
+    end
+  end
 end
