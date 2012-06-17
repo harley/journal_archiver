@@ -4,17 +4,22 @@ class Archiver
   def initialize(journal, output_dir = "output")
     @journal  = journal
     @base_dir = output_dir
+    Dir.mkdir(@base_dir) unless File.exists?(@base_dir)
   end
 
   def sanitize_filename(name)
-    name = name.strip.squeeze(" ")
-    name.gsub! /[\/\\]/, '-'
-    # may need to do more replacement here if any filename error is found later
-    name
+    if name
+      name = name.strip.squeeze(" ")
+      name.gsub! /[\/\\]/, '-'
+      # may need to do more replacement here if any filename error is found later
+      name
+    else
+      ''
+    end
   end
 
   def journal_dir
-    File.join(base_dir, journal.name)
+    File.join(base_dir, sanitize_filename(journal.name))
   end
 
   # create a folder with journal's name
@@ -30,7 +35,7 @@ class Archiver
   end
 
   def article_dir(issue, article)
-    File.join issue_dir(issue), article.section||''
+    File.join issue_dir(issue), sanitize_filename(article.section)
   end
 
   def generate
@@ -44,7 +49,7 @@ class Archiver
         article_dir = article_dir(issue, article)
         prepare_dir article_dir
 
-        filepath = File.join article_dir, "#{article.name}.pdf"
+        filepath = File.join article_dir, sanitize_filename("#{article.name}.pdf")
         puts "\t#{filepath}"
         unless ENV['DRY']
           if !File.exists?(filepath) or ENV['FORCE']
