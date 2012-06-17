@@ -1,5 +1,5 @@
 class Issue
-  attr_accessor :name, :url
+  attr_accessor :name, :url, :agent
 
   def initialize(hash = {})
     @name = hash[:name]

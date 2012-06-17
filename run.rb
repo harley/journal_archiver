@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
-require 'bundler/setup'
+require_relative 'journal_archiver'
 
-puts "done"
+archiver = Archiver.new Journal.jep
+archiver.generate
 

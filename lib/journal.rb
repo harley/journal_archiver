@@ -1,5 +1,5 @@
 class Journal
-  attr_accessor :name, :url
+  attr_accessor :name, :url, :agent
 
   def initialize(args = {})
     if args.is_a? Hash
