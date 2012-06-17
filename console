@@ -1,1 +1,1 @@
-irb -r "./spec/spec_helper"
+irb -r "./journal_archiver"

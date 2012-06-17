@@ -1,0 +1,1109 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.google.com/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - NID=60=KwiMaE9qoXAGSIAuTmT0iDYC7W3kgTzcmRf-4ClbuSBNaLXlIXYiMctLEeyeUiEzYL0-yY50pQIDFBmlGCxJDqTvSv_oib0tPmhFCfCaA-vWuTaVPU-0mPDddTqnU9py;
+        expires=Mon, 17-Dec-2012 06:04:52 GMT; path=/; domain=.google.com; HttpOnly
+      - NID=60=mXD_qkayHNIXjwfVtWbWng20sVOHfSps2kinDUlN0lbygyw-kEtmU9qd7oOanPuzZMZTygWIWtSvjNJOV7bdQ1KLrnVyxJkLfdy9ktn-vHiUXhhvnqA-88VYd1X6nWKF;
+        expires=Mon, 17-Dec-2012 06:04:53 GMT; path=/; domain=.google.com; HttpOnly
+      - PREF=ID=24196bdc895f68c4:FF=0:TM=1339913092:LM=1339913093:S=qRrjUr_A-GNG_n9s;
+        expires=Tue, 17-Jun-2014 06:04:53 GMT; path=/; domain=.google.com
+      - domain=; expires=Mon, 01-Jan-1990 00:00:00 GMT; path=/; domain=.google.com
+      - domain=; expires=Mon, 01-Jan-1990 00:00:00 GMT; path=/; domain=.www.google.com
+      - domain=; expires=Mon, 01-Jan-1990 00:00:00 GMT; path=/; domain=google.com
+      - domain=; expires=Mon, 01-Jan-1990 00:00:00 GMT; path=/; domain=www.google.com
+      - expires=; expires=Mon, 01-Jan-1990 00:00:00 GMT; path=/; domain=.google.com
+      - expires=; expires=Mon, 01-Jan-1990 00:00:00 GMT; path=/; domain=.www.google.com
+      - expires=; expires=Mon, 01-Jan-1990 00:00:00 GMT; path=/; domain=google.com
+      - expires=; expires=Mon, 01-Jan-1990 00:00:00 GMT; path=/; domain=www.google.com
+      - path=; expires=Mon, 01-Jan-1990 00:00:00 GMT; path=/; domain=.google.com
+      - path=; expires=Mon, 01-Jan-1990 00:00:00 GMT; path=/; domain=.www.google.com
+      - path=; expires=Mon, 01-Jan-1990 00:00:00 GMT; path=/; domain=google.com
+      - path=; expires=Mon, 01-Jan-1990 00:00:00 GMT; path=/; domain=www.google.com
+      Date:
+      - Sun, 17 Jun 2012 06:04:52 GMT
+      Expires:
+      - '-1'
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      P3p:
+      - CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657
+        for more info."
+      Server:
+      - gws
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! '<!doctype html><html itemscope itemtype="http://schema.org/WebPage"><head><meta
+        http-equiv="content-type" content="text/html; charset=ISO-8859-1"><meta name="description"
+        content="Search the world&#39;s information, including webpages, images, videos
+        and more. Google has many special features to help you find exactly what you&#39;re
+        looking for."><meta name="robots" content="noodp"><meta itemprop="image" content="/images/google_favicon_128.png"><title>Google</title><script>window.google={kEI:"hHPdT8G4PIjl0QHX4MSxAg",getEI:function(a){var
+        b;while(a&&!(a.getAttribute&&(b=a.getAttribute("eid"))))a=a.parentNode;return
+        b||google.kEI},https:function(){return window.location.protocol=="https:"},kEXPI:"17259,35702,36253,37658,37864,38816,38992,39000,39266,39370,39387,39423,39506",kCSI:{e:"17259,35702,36253,37658,37864,38816,38992,39000,39266,39370,39387,39423,39506",ei:"hHPdT8G4PIjl0QHX4MSxAg"},authuser:0,ml:function(){},kHL:"en",time:function(){return(new
+        Date).getTime()},log:function(a,
+
+        b,c,e){var d=new Image,h=google,i=h.lc,f=h.li,j="";d.onerror=(d.onload=(d.onabort=function(){delete
+        i[f]}));i[f]=d;if(!c&&b.search("&ei=")==-1)j="&ei="+google.getEI(e);var g=c||"/gen_204?atyp=i&ct="+a+"&cad="+b+j+"&zx="+google.time();var
+        k=/^http:/i;if(k.test(g)&&google.https()){google.ml(new Error("GLMM"),false,{src:g});delete
+        i[f];return}d.src=g;h.li=f+1},lc:[],li:0,Toolbelt:{},y:{},x:function(a,b){google.y[a.id]=[a,b];return
+        false}};
+
+        window.google.sn="webhp";window.google.timers={};window.google.startTick=function(a,b){window.google.timers[a]={t:{start:(new
+        Date).getTime()},bfr:!(!b)}};window.google.tick=function(a,b,c){if(!window.google.timers[a])google.startTick(a);window.google.timers[a].t[b]=c||(new
+        Date).getTime()};google.startTick("load",true);try{}catch(u){}
+
+        var _gjwl=location;function _gjuc(){var e=_gjwl.href.indexOf("#");if(e>=0){var
+        a=_gjwl.href.substring(e);if(a.indexOf("&q=")>0||a.indexOf("#q=")>=0){a=a.substring(1);if(a.indexOf("#")==-1){for(var
+        c=0;c<a.length;){var d=c;if(a.charAt(d)=="&")++d;var b=a.indexOf("&",d);if(b==-1)b=a.length;var
+        f=a.substring(d,b);if(f.indexOf("fp=")==0){a=a.substring(0,c)+a.substring(b,a.length);b=c}else
+        if(f=="cad=h")return 0;c=b}_gjwl.href="/search?"+a+"&cad=h";return 1}}}return
+        0}function _gjp(){!(window._gjwl.hash&&
+
+        window._gjuc())&&setTimeout(_gjp,500)};
+
+        window._gjp && _gjp()</script><style>#gbar,#guser{font-size:13px;padding-top:1px
+        !important;}#gbar{height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px
+        solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media
+        all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline
+        !important}a.gb1,a.gb4{color:#00c !important}</style><style id=gstyle>body{margin:0;overflow-y:scroll}#gog{padding:3px
+        8px 0}td{line-height:.8em}.gac_m td{line-height:17px}form{margin-bottom:20px}body,td,a,p,.h{font-family:arial,sans-serif}.h{color:#36c;font-size:20px}.q{color:#00c}.ts
+        td{padding:0}.ts{border-collapse:collapse}em{font-weight:bold;font-style:normal}.lst{height:25px;width:496px}.gsfi,.lst{font:18px
+        arial,sans-serif}.gsfs{font:17px arial,sans-serif}.ds{display:-moz-inline-box;display:inline-block;margin:3px
+        0 4px;margin-left:4px}input{font-family:inherit}a.gb1,a.gb2,a.gb3,a.gb4{color:#11c
+        !important}body{background:#fff;color:black}a{color:#11c;text-decoration:none}a:hover,a:active{text-decoration:underline}.fl
+        a{color:#36c}a:visited{color:#551a8b}a.gb1,a.gb4{text-decoration:underline}a.gb3:hover{text-decoration:none}#ghead
+        a.gb2:hover{color:#fff!important}.sblc{padding-top:5px}.sblc a{display:block;margin:2px
+        0;margin-left:13px;font-size:11px;}.lsbb{background:#eee;border:solid 1px;border-color:#ccc
+        #999 #999 #ccc;height:30px;display:block}.ftl,#fll a{display:inline-block;margin:0
+        12px}.lsb{background:url(/images/srpr/nav_logo80.png) 0 -258px repeat-x;border:none;color:#000;cursor:pointer;height:30px;margin:0;outline:0;font:15px
+        arial,sans-serif;vertical-align:top}.lsb:active{background:#ccc}.lst:focus{outline:none}#addlang
+        a{padding:0 3px}.gac_v div{display:none}.gac_v .gac_v2,.gac_bt{display:block!important}table.gssb_c{z-index:986  }.nbcl{background:url(/images/srpr/nav_logo80.png)
+        no-repeat ;height:px;width:px}</style><script>window.rwt=function(a,f,g,l,m,h,c,n,i){try{if(a===window){a=window.event.srcElement;while(a){if(a.href)break;a=a.parentNode}}var
+        b=encodeURIComponent||escape,d;d=a.getAttribute("href");if(c&&c.substring(0,6)!="&sig2=")c="&sig2="+c;var
+        o=["/url?sa=t","","&cd=",b(m),i?"&authuser="+b(i):"",google.j&&google.j.pf?"&sqi=2":"","&ved=",b(n),"&url=",b(d).replace(/\+/g,"%2B"),"&ei=","hHPdT8G4PIjl0QHX4MSxAg",h?"&usg="+h:"",c].join("");a.href=o;a.onmousedown=""}catch(p){}return
+        true};
+
+        </script></head><body bgcolor=#ffffff text=#000000 link=#0000cc vlink=#551a8b
+        alink=#ff0000 onload="document.f&&document.f.q.focus();document.gbqf&&document.gbqf.q.focus();if(document.images)new
+        Image().src=''/images/srpr/nav_logo80.png''" ><textarea id=csi style=display:none></textarea><div
+        id=mngb><div id=gbar><nobr><b class=gb1>Search</b> <a class=gb1 href="http://www.google.com/imghp?hl=en&tab=wi">Images</a>
+        <a class=gb1 href="http://video.google.com/?hl=en&tab=wv">Videos</a> <a class=gb1
+        href="http://maps.google.com/maps?hl=en&tab=wl">Maps</a> <a class=gb1 href="http://news.google.com/nwshp?hl=en&tab=wn">News</a>
+        <a class=gb1 href="http://www.google.com/shopping?hl=en&tab=wf">Shopping</a>
+        <a class=gb1 href="https://mail.google.com/mail/?tab=wm">Gmail</a> <a class=gb1
+        style="text-decoration:none" href="http://www.google.com/intl/en/options/"><u>More</u>
+        &raquo;</a></nobr></div><div id=guser width=100%><nobr><span id=gbn class=gbi></span><span
+        id=gbf class=gbf></span><span id=gbe><a  href="/url?sa=p&pref=ig&pval=3&q=http://www.google.com/ig%3Fhl%3Den%26source%3Diglk&usg=AFQjCNFA18XPfgb7dKnXfKz7x7g1GDH1tg"
+        class=gb4>iGoogle</a> | </span><a href="http://www.google.com/history/optout?hl=en"
+        class=gb4>Web History</a> | <a  href="/preferences?hl=en" class=gb4>Settings</a>
+        | <a target=_top id=gb_70 href="https://accounts.google.com/ServiceLogin?hl=en&continue=http://www.google.com/"
+        class=gb4>Sign in</a></nobr></div><div class=gbh style=left:0></div><div class=gbh
+        style=right:0></div></div><iframe name=wgjf style=display:none></iframe><center><br
+        clear=all id=lgpd><div id=lga><a href="/search?q=Father%27s+Day&amp;oi=ddle&amp;ct=fathersday12-hp"><img
+        alt="Happy Father&#39;s Day!" title="Happy Father&#39;s Day!" border=0 height=163
+        src="/logos/2012/fathersday12-hp.jpg" width=421 id=hplogo onload="window.lol&&lol()"/></a><br><br></div><form
+        action="/search" name=f><table cellpadding=0 cellspacing=0><tr valign=top><td
+        width=25%>&nbsp;</td><td align=center nowrap><input type=hidden name=ie value="ISO-8859-1"><input
+        name=hl type=hidden value=en><input name=source type=hidden value=hp><div
+        class=ds style="height:32px;margin:4px 0"><input autocomplete=off maxlength=2048
+        name=q class="lst" title="Google Search" value="" size=57 style="color:#000;margin:0;padding:5px
+        8px 0 6px;vertical-align:top"></div><br style="line-height:0"><span class=ds
+        ><span class=lsbb><input name=btnG type=submit value="Google Search" class=lsb></span></span><span
+        class=ds><span class=lsbb><input name=btnI type=submit class=lsb value="I&#39;m
+        Feeling Lucky" onclick="if(this.form.q.value)this.checked=1;else top.location=''/doodles/''"></span></span></td><td
+        nowrap width=25% align=left class="fl sblc"><a href="/advanced_search?hl=en">Advanced
+        search</a><a href="/language_tools?hl=en">Language tools</a></td></tr></table><input
+        type=hidden id=gbv name=gbv value="1"></form><div style="font-size:83%;min-height:3.5em"><br></div><span
+        id=footer><center id=fctr><div style="font-size:10pt"><div id=fll style="margin:19px
+        auto;text-align:center"><a href="/intl/en/ads/">Advertising&nbsp;Programs</a><a
+        href="/services/">Business Solutions</a><a href="https://plus.google.com/116899029375914044550"
+        rel="publisher">+Google</a><a href="/intl/en/about.html">About Google</a></div></div><p
+        style="color:#767676;font-size:8pt">&copy; 2012 - <a href="/intl/en/policies/">Privacy
+        & Terms</a></p></center></span> </center><div id=xjsd></div><div id=xjsi><script>if(google.y)google.y.first=[];google.dlj=function(b){window.setTimeout(function(){var
+        a=document.createElement("script");a.src=b;document.getElementById("xjsd").appendChild(a)},0)};
+
+        (function(){
+
+        var c,d,e=false;function f(a){var b={_sn:a?"FAILURE":"FALLBACK",_pu:c,_fu:d},h=google.ml(new
+        Error("pml"),false,b,true);google.log(0,"",h)}function g(){if(!google.pml)f(true)}function
+        i(a){var b=document.createElement("script");b.src=a;document.getElementById("xjsd").appendChild(b)}function
+        j(){if(!e&&!google.pml){e=true;f();i(d,g)}}google.dljp=
+
+        function(a,b){c=a;google.xjsu=a;d=b;if(!google.xjsi)window.setTimeout(function(){i(c,j)},0)};
+
+        })();
+
+        (function(){google.xjsol=function(a){if(google.sc&&(a=google.sc[a])){for(var
+        b=0;b<a.cb.length;b++)a.cb[b]();a.cb=[];a.lc=!0}};google.xjsl=function(a,b){var
+        c=google.sc[a];c&&(b&&(c.lc?b():c.cb.push(b)),!c.ls&&!c.lc&&(google.dlj(c.u),c.ls=!0))};google.register=google.register||function(a,b){google.y.first.push(function(){google.register(a,b)})};})();
+
+        google.y.first=[];if(!google.xjs){google.dstr=[];google.rein=[];window._=window._||{};window._._DumpException=function(e){throw
+        e};if(google.timers&&google.timers.load.t){google.timers.load.t.xjsls=new
+        Date().getTime();}google.xjsuo=''/xjs/_/js/s/s,st,anim,bbd,sb_he,hv,pj,tbpr,tbui,spp,rsn,ob,mb,lc,du,ada,lu,pcc,csitl/rt\x3dj/ver\x3d-tHqxPGrLwM.en_US./d\x3d1/rs\x3dAItRSTOcP2Us5Dx8-ocLnHCaQoNCXkuBRg'';if(google.xjsuop)google.xjsuo=google.xjsuo.replace(/xjs\/_\/js/,google.xjsuop);google.dljp(google.xjsuo,''/xjs/_/js/s/s,st,anim,bbd,sb_he,hv,pj,tbpr,tbui,spp,rsn,ob,mb,lc,du,ada,lu,pcc,csitl/rt\x3dj/ver\x3dhzVqGT-2vOY.en_US./d\x3d1/rs\x3dAItRSTMQTAdBZfUuIJ8KqCUFzQLl1l-dRA'');google.xjs=1}google.pmc={14:{},263:{},60:{},81:{},10:{"client":"hp","dh":true,"ds":"","fl":true,"host":"google.com","jsonp":true,"msgs":{"lcky":"I\u0026#39;m
+        Feeling Lucky","lml":"Learn more","psrc":"This search was removed from your
+        \u003Ca href=\"/history\"\u003EWeb History\u003C/a\u003E","psrl":"Remove","srch":"Google
+        Search"},"ovr":{"l":1,"ms":1,"p":1},"pq":"","rgen":true,"scd":10,"sce":5,"stok":"ou9K4_CwfUSXz5zw2COmdiMc0yY"},152:{},213:{"pberr":"\u003Cfont
+        color=red\u003EError:\u003C/font\u003E The server could not complete your
+        request.  Try again in 30 seconds."},114:{"rvu_report_msg":"Report","rvu_reported_msg":"Reported"},78:{},25:{"g":8,"k":false,"m":{"app":true,"bks":true,"blg":true,"dsc":true,"evn":true,"fin":true,"flm":true,"frm":true,"isch":true,"klg":true,"mbl":true,"nws":true,"plcs":true,"ppl":true,"prc":true,"pts":true,"rcp":true,"shop":true,"vid":true},"t":null},216:{},105:{},22:{"db":false,"m_errors":{"32":"Sorry,
+        no more results to show.","default":"\u003Cfont color=red\u003EError:\u003C/font\u003E
+        The server could not complete your request.  Try again in 30 seconds."},"m_tip":"Click
+        for more information","nlpm":"-153px -84px","nlpp":"-153px -70px","utp":false},77:{},146:{},144:{},121:{},63:{"cnfrm":"Reported","prmpt":"Report"},84:{"tt_kft":true},97:{},24:{},38:{}};google.y.first.push(function(){if(google.med){google.med(''init'');google.initHistory();google.med(''history'');}google.History&&google.History.initialize(''/'')});if(google.j&&google.j.en&&google.j.xi){window.setTimeout(google.j.xi,0);}</script></div><script>(function(){
+
+        var b,d,e,f;function g(a,c){if(a.removeEventListener){a.removeEventListener("load",c,false);a.removeEventListener("error",c,false)}else{a.detachEvent("onload",c);a.detachEvent("onerror",c)}}function
+        h(a){f=(new Date).getTime();++d;a=a||window.event;var c=a.target||a.srcElement;g(c,h)}var
+        i=document.getElementsByTagName("img");b=i.length;d=0;for(var j=0,k;j<b;++j){k=i[j];if(k.complete||typeof
+        k.src!="string"||!k.src)++d;else if(k.addEventListener){k.addEventListener("load",h,false);k.addEventListener("error",
+
+        h,false)}else{k.attachEvent("onload",h);k.attachEvent("onerror",h)}}e=b-d;function
+        l(){if(!google.timers.load.t)return;google.timers.load.t.ol=(new Date).getTime();google.timers.load.t.iml=f;google.kCSI.imc=d;google.kCSI.imn=b;google.kCSI.imp=e;if(google.stt!==undefined)google.kCSI.stt=google.stt;google.timers.load.t.xjs&&google.report&&google.report(google.timers.load,google.kCSI)}if(window.addEventListener)window.addEventListener("load",
+
+        l,false);else if(window.attachEvent)window.attachEvent("onload",l);google.timers.load.t.prt=(f=(new
+        Date).getTime());
+
+        })();
+
+        </script>'
+    http_version: 
+  recorded_at: Sun, 17 Jun 2012 06:04:53 GMT
+- request:
+    method: get
+    uri: http://www.aeaweb.org/jep/contents/index.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Mechanize/2.5.1 Ruby/1.9.3p194 (http://github.com/tenderlove/mechanize/)
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - www.aeaweb.org
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 17 Jun 2012 06:04:53 GMT
+      Server:
+      - Apache/2.2.22
+      Keep-Alive:
+      - timeout=5, max=100
+      Connection:
+      - Keep-Alive
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html
+    body:
+      encoding: US-ASCII
+      string: ! "\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<base
+        target=\"_top\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html;
+        charset=UTF-8\" />\n<title>The Journal of Economic Perspectives: Tables of
+        Contents</title>\n<link type=\"text/css\" rel=\"stylesheet\" href=\"/include/jQuery/css/custom-theme/jquery-ui-1.8.custom.css\"
+        />\n<script type=\"text/javascript\" src=\"/include/jQuery/js/jquery-1.4.2.min.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/include/jQuery/js/jquery-ui-1.8.12.custom.min.js\"></script>\n<script
+        type=\"text/javascript\">\n//\t$(document).ready(function() {\n//\t\t$.ajax({\n//\t\t
+        \   url: 'http://www.aeaweb.org/include/entrywriter.php',\n//\t\t    data:
+        {scr_height: screen.height, scr_width: screen.width, height: $(window).height(),
+        width: $(window).width(), use_agent: navigator.userAgent },\n//\t\t    type:
+        'POST',\n//\t\t    dataType: 'script'\n//\t\t});\n//\t});\n</script>\n<script
+        language=\"JavaScript1.2\" type=\"text/javascript\">\n<!--\nfunction MM_findObj(n,
+        d) { //v4.01\n  var p,i,x;  if(!d) d=document; if((p=n.indexOf(\"?\"))>0&&parent.frames.length)
+        {\n    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}\n
+        \ if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];\n
+        \ for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);\n
+        \ if(!x && d.getElementById) x=d.getElementById(n); return x;\n}\nfunction
+        MM_swapImage() { //v3.0\n  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new
+        Array; for(i=0;i<(a.length-2);i+=3)\n   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x;
+        if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}\n}\nfunction MM_swapImgRestore()
+        { //v3.0\n  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++)
+        x.src=x.oSrc;\n}\n\nfunction MM_preloadImages() { //v3.0\n  var d=document;
+        if(d.images){ if(!d.MM_p) d.MM_p=new Array();\n    var i,j=d.MM_p.length,a=MM_preloadImages.arguments;
+        for(i=0; i<a.length; i++)\n    if (a[i].indexOf(\"#\")!=0){ d.MM_p[j]=new
+        Image; d.MM_p[j++].src=a[i];}}\n}\nfunction loadDialog(title, destination){\n\t$('#dialog').load(destination);\n\t$('#dialog').dialog({\n\t\ttitle:
+        title,\n\t\twidth: 600,\n\t\theight: 'auto',\n\t\tresizable: false,\n\t\tmodal:
+        true\n\t});\n}\n//-->\n</script>\n<script language=\"JavaScript1.2\" type=\"text/javascript\"
+        src=\"/include/NavBar_22a/mm_css_menu_v.js\"></script>\n<link href=\"/include/NavBar_22a/NavBar_01_v.css\"
+        rel=\"stylesheet\" type=\"text/css\" media=\"screen\" />\n<link href=\"/include/stylesMain.css\"
+        rel=\"stylesheet\" type=\"text/css\" media=\"screen\" />\n<link href=\"/include/stylesPrint.css\"
+        rel=\"stylesheet\" type=\"text/css\" media=\"print\" />\n</head>\n<body bgcolor=\"#ffffff\"
+        onload=\"MM_preloadImages('/include/NavBar_22a/Nav_Bar_01/navBar_02_s2.gif','/include/NavBar_22a/Nav_Bar_01/navBar_03_s2.gif','/include/NavBar_22a/Nav_Bar_01/navBar_04_s2.gif','/include/NavBar_22a/Nav_Bar_01/navBar_05_s2.gif','/include/NavBar_22a/Nav_Bar_01/navBar_06_s2.gif','/include/NavBar_22a/Nav_Bar_01/NavBar_08_s2.gif');\">\n\n<div
+        id=\"centerMain\">\n<div>\n  <table cellspacing=\"0\" id=\"outline\">\n    <tr>\n
+        \     <td colspan=\"3\" id=\"header1\"><a href=\"http://www.vanderbilt.edu/AEA/\"><img
+        src=\"/include/images/header_v.jpg\" alt=\"American Economics Association\"
+        width=\"770\" height=\"100\" border=\"0\" /></a></td>\n    </tr>\n    <tr>\n
+        \     <td colspan=\"3\">\n<div id=\"FWTableContainer1611627588\">\n<table
+        style=\"display: inline-table;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"
+        width=\"770\">\n<!-- fwtable fwsrc=\"NavBar_22a.png\" fwpage=\"Page 1\" fwbase=\"NavBar_01.gif\"
+        fwstyle=\"Dreamweaver\" fwdocid = \"1611627588\" fwnested=\"0\" -->\n  <tr>\n
+        \  <td><img src=\"/include/NavBar_22a/Nav_Bar_01/spacer.gif\" width=\"168\"
+        height=\"1\" border=\"0\" alt=\"\" /></td>\n   <td><img src=\"/include/NavBar_22a/Nav_Bar_01/spacer.gif\"
+        width=\"63\" height=\"1\" border=\"0\" alt=\"\" /></td>\n   <td><img src=\"/include/NavBar_22a/Nav_Bar_01/spacer.gif\"
+        width=\"101\" height=\"1\" border=\"0\" alt=\"\" /></td>\n   <td><img src=\"/include/NavBar_22a/Nav_Bar_01/spacer.gif\"
+        width=\"148\" height=\"1\" border=\"0\" alt=\"\" /></td>\n   <td><img src=\"/include/NavBar_22a/Nav_Bar_01/spacer.gif\"
+        width=\"83\" height=\"1\" border=\"0\" alt=\"\" /></td>\n   <td><img src=\"/include/NavBar_22a/Nav_Bar_01/spacer.gif\"
+        width=\"108\" height=\"1\" border=\"0\" alt=\"\" /></td>\n   <td><img src=\"/include/NavBar_22a/Nav_Bar_01/spacer.gif\"
+        width=\"99\" height=\"1\" border=\"0\" alt=\"\" /></td>\n   <td><img src=\"/include/NavBar_22a/Nav_Bar_01/spacer.gif\"
+        width=\"1\" height=\"1\" border=\"0\" alt=\"\" /></td>\n  </tr>\n  <tr>\n
+        \  <td><img name=\"navBar_01_s1\" src=\"/include/NavBar_22a/Nav_Bar_01/navBar_01_s1.gif\"
+        width=\"168\" height=\"21\" border=\"0\" id=\"navBar_01_s1\" alt=\"\" /></td>\n
+        \  <td><a href=\"http://www.vanderbilt.edu/AEA/\" onmouseout=\"MM_swapImgRestore();MM_menuStartTimeout(1);\"
+        onmouseover=\"MM_menuShowMenu('MMMenuContainer0602114000_0', 'MMMenu0602114000_0',2,21,'navBar_02_s1');MM_swapImage('navBar_02_s1','','/include/NavBar_22a/Nav_Bar_01/navBar_02_s2.gif',1);\"><img
+        name=\"navBar_02_s1\" src=\"/include/NavBar_22a/Nav_Bar_01/navBar_02_s1.gif\"
+        width=\"63\" height=\"21\" border=\"0\" id=\"navBar_02_s1\" alt=\"\" /></a></td>\n
+        \  <td><a href=\"http://www.aeaweb.org/aea_journals.php\" onmouseout=\"MM_swapImgRestore();MM_menuStartTimeout(1);\"
+        onmouseover=\"MM_menuShowMenu('MMMenuContainer0602114333_1', 'MMMenu0602114333_1',0,21,'navBar_03_s1');MM_swapImage('navBar_03_s1','','/include/NavBar_22a/Nav_Bar_01/navBar_03_s2.gif',1);\"><img
+        name=\"navBar_03_s1\" src=\"/include/NavBar_22a/Nav_Bar_01/navBar_03_s1.gif\"
+        width=\"101\" height=\"21\" border=\"0\" id=\"navBar_03_s1\" alt=\"\" /></a></td>\n
+        \  <td><a href=\"http://www.aeaweb.org/Annual_Meeting/index.php\" onmouseout=\"MM_swapImgRestore();MM_menuStartTimeout(1);\"
+        onmouseover=\"MM_menuShowMenu('MMMenuContainer0602133319_2', 'MMMenu0602133319_2',0,21,'navBar_04_s1');MM_swapImage('navBar_04_s1','','/include/NavBar_22a/Nav_Bar_01/navBar_04_s2.gif',1);\"><img
+        name=\"navBar_04_s1\" src=\"/include/NavBar_22a/Nav_Bar_01/navBar_04_s1.gif\"
+        width=\"148\" height=\"21\" border=\"0\" id=\"navBar_04_s1\" alt=\"\" /></a></td>\n
+        \  <td><a href=\"http://www.aeaweb.org/econlit/\" onmouseout=\"MM_swapImgRestore();MM_menuStartTimeout(1);\"
+        onmouseover=\"MM_menuShowMenu('MMMenuContainer0602143505_3', 'MMMenu0602143505_3',2,21,'navBar_05_s1');MM_swapImage('navBar_05_s1','','/include/NavBar_22a/Nav_Bar_01/navBar_05_s2.gif',1);\"><img
+        name=\"navBar_05_s1\" src=\"/include/NavBar_22a/Nav_Bar_01/navBar_05_s1.gif\"
+        width=\"83\" height=\"21\" border=\"0\" id=\"navBar_05_s1\" alt=\"\" /></a></td>\n
+        \  <td><a href=\"http://www.aeaweb.org/joe_rfe.php\" onmouseout=\"MM_swapImgRestore();MM_menuStartTimeout(1);\"
+        onmouseover=\"MM_menuShowMenu('MMMenuContainer0605112640_4', 'MMMenu0605112640_4',0,21,'navBar_06_s1');MM_swapImage('navBar_06_s1','','/include/NavBar_22a/Nav_Bar_01/navBar_06_s2.gif',1);\"><img
+        name=\"navBar_06_s1\" src=\"/include/NavBar_22a/Nav_Bar_01/navBar_06_s1.gif\"
+        width=\"108\" height=\"21\" border=\"0\" id=\"navBar_06_s1\" alt=\"\" /></a></td>\n
+        \  <td><a href=\"http://www.aeaweb.org/membership.php\" onmouseout=\"MM_swapImgRestore();MM_menuStartTimeout(1);\"
+        onmouseover=\"MM_menuShowMenu('MMMenuContainer0816152719_5', 'MMMenu0816152719_5',0,21,'NavBar_08_s1');MM_swapImage('NavBar_08_s1','','/include/NavBar_22a/Nav_Bar_01/NavBar_08_s2.gif',1);\"><img
+        name=\"NavBar_08_s1\" src=\"/include/NavBar_22a/Nav_Bar_01/NavBar_08_s1.gif\"
+        width=\"99\" height=\"21\" border=\"0\" id=\"NavBar_08_s1\" alt=\"\" /></a></td>\n
+        \  <td><img src=\"/include/NavBar_22a/Nav_Bar_01/spacer.gif\" width=\"1\"
+        height=\"21\" border=\"0\" alt=\"\" /></td>\n  </tr>\n</table>\n<div id=\"MMMenuContainer0602114000_0\">\n<div
+        id=\"MMMenu0602114000_0\" onmouseout=\"MM_menuStartTimeout(1);\" onmouseover=\"MM_menuResetTimeout();\">\n\n\t\t\t<a
+        href=\"http://www.aeaweb.org/AboutAEA/index.php\" id=\"MMMenu0602114000_0_Item_0\"
+        class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tAbout&nbsp;the&nbsp;AEA\t\t\t\n            </a> \n\t\t\t<a href=\"http://www.aeaweb.org/committees/index.php\"
+        id=\"MMMenu0602114000_0_Item_1\" class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tCommittees\t\t\t\n            </a> \n\t\t\t<a href=\"http://www.aeaweb.org/honors_awards/index.php\"
+        id=\"MMMenu0602114000_0_Item_2\" class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tHonors&nbsp;&amp;&nbsp;Awards\t\t\t\n            </a> \n\t\t\t<a
+        href=\"http://www.aeaweb.org/gradstudents/\" id=\"MMMenu0602114000_0_Item_3\"
+        class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tFor&nbsp;Graduate&nbsp;Students\t\t\t\n            </a> \n\t\t\t<a
+        href=\"http://www.aeaweb.org/students/\" id=\"MMMenu0602114000_0_Item_4\"
+        class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tFor&nbsp;Undergrad&nbsp;Students\t\t\t\n            </a> \n\t\t\t<a
+        href=\"http://www.aeaweb.org/news.php\" id=\"MMMenu0602114000_0_Item_5\" class=\"MMMIFVStyleMMMenu0602114000_0\"
+        \ onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\" >\n\t\t\tNews&nbsp;&amp;&nbsp;Notes\t\t\t\n
+        \           </a> \n\t\t\t<a href=\"http://www.aeaweb.org/AboutAEA/board.php\"
+        id=\"MMMenu0602114000_0_Item_6\" class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tOfficers\t\t\t\n            </a> \n\t\t\t<a href=\"http://www.aeaweb.org/AboutAEA/gen_info.php\"
+        id=\"MMMenu0602114000_0_Item_7\" class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tGeneral&nbsp;Information\t\t\t\n            </a> \n\t\t\t<a href=\"http://www.aeaweb.org/AboutAEA/meeting_minutes.php\"
+        id=\"MMMenu0602114000_0_Item_8\" class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tMinutes\t\t\t\n            </a> \n\t\t\t<a href=\"http://www.aeaweb.org/UAQ/index.php\"
+        id=\"MMMenu0602114000_0_Item_9\" class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tUA&nbsp;Questionnaire\t\t\t\n            </a> \n\t\t\t<a href=\"http://www.aeaweb.org/cont_education/\"
+        id=\"MMMenu0602114000_0_Item_10\" class=\"MMMIFVStyleMMMenu0602114000_0\"
+        \ onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\" >\n\t\t\tContinuing&nbsp;Education\t\t\t\n
+        \           </a> \n\t\t\t<a href=\"https://www.aeaweb.org/ms2/dirSearch.php\"
+        id=\"MMMenu0602114000_0_Item_11\" class=\"MMMIFVStyleMMMenu0602114000_0\"
+        \ onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\" >\n\t\t\tDirectory&nbsp;of&nbsp;Members\t\t\t\n
+        \           </a> \n\t\t\t<a href=\"http://www.aeaweb.org/Annual_Meeting/call_for_papers.php\"
+        id=\"MMMenu0602114000_0_Item_12\" class=\"MMMIFVStyleMMMenu0602114000_0\"
+        \ onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\" >\n\t\t\tCall&nbsp;for&nbsp;Papers\t\t\t\n
+        \           </a> \n\t\t\t<a href=\"http://www.aeaweb.org/media.php\" id=\"MMMenu0602114000_0_Item_13\"
+        class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tMedia\t\t\t\n            </a> </div>\n</div>\n<div id=\"MMMenuContainer0602114333_1\">\n\t<div
+        id=\"MMMenu0602114333_1\" onmouseout=\"MM_menuStartTimeout(1);\" onmouseover=\"MM_menuResetTimeout();\">\n
+        \  \t\t<a href=\"http://www.aeaweb.org/aej/app/index.php\" id=\"MMMenu0602114333_1_Item_0\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\t<i>AEJ:&nbsp;Applied&nbsp;Economics</i></a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/aej/pol/index.php\" id=\"MMMenu0602114333_1_Item_1\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\t<i>AEJ:&nbsp;Economic&nbsp;Policy</i></a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/aej/mac/index.php\" id=\"MMMenu0602114333_1_Item_2\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\t<i>AEJ:&nbsp;Macroeconomics</i></a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/aej/mic/index.php\" id=\"MMMenu0602114333_1_Item_3\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\t<i>AEJ:&nbsp;Microeconomics</i></a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/aer/index.php\" id=\"MMMenu0602114333_1_Item_4\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\t<i>American&nbsp;Economic&nbsp;Review</i></a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/jel/index.php\" id=\"MMMenu0602114333_1_Item_5\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\t<i>Journal&nbsp;of&nbsp;Economic&nbsp;Literature</i></a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/jep/index.php\" id=\"MMMenu0602114333_1_Item_6\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\t<i>Journal&nbsp;of&nbsp;Economic&nbsp;Perspectives</i></a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/notify/notify.php\" id=\"MMMenu0602114333_1_Item_7\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\teTOCs</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/virtual\" id=\"MMMenu0602114333_1_Item_8\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\tVirtual&nbsp;Field&nbsp;Journals</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/subscriptions.php\" id=\"MMMenu0602114333_1_Item_9\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\tInstitutional&nbsp;Subscriptions</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/jstor.php\" id=\"MMMenu0602114333_1_Item_10\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\tAEA&nbsp;Journals&nbsp;on&nbsp;JSTOR</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/advertising.php\" id=\"MMMenu0602114333_1_Item_11\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\tAds&nbsp;in&nbsp;Journals</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/back_issues.php\" id=\"MMMenu0602114333_1_Item_12\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\tBack&nbsp;Issues&nbsp;Order&nbsp;Forms</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/permissions.php\" id=\"MMMenu0602114333_1_Item_13\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\tCopyright&nbsp;&amp;&nbsp;Permissions</a>\n
+        \        \t</div>\n</div>\n<div id=\"MMMenuContainer0602133319_2\">\n\t<div
+        id=\"MMMenu0602133319_2\" onmouseout=\"MM_menuStartTimeout(1);\" onmouseover=\"MM_menuResetTimeout();\">\n
+        \  \t\t<a href=\"http://www.aeaweb.org/Annual_Meeting/submissions.php\" id=\"MMMenu0602133319_2_Item_0\"
+        class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tSubmissions</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/Annual_Meeting/index.php\" id=\"MMMenu0602133319_2_Item_1\"
+        class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tRegistration/Housing</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/aea/2012conference/program/preliminary.php\"
+        id=\"MMMenu0602133319_2_Item_2\" class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tPreliminary&nbsp;Program</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/aea/2012conference/program/meetingpapers.php\"
+        id=\"MMMenu0602133319_2_Item_3\" class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tAnnual&nbsp;Meeting&nbsp;Papers</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/webcasts/index.php\" id=\"MMMenu0602133319_2_Item_4\"
+        class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tAnnual&nbsp;Meeting&nbsp;Webcasts</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/Annual_Meeting/disclosure_codes.php\"
+        id=\"MMMenu0602133319_2_Item_5\" class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tDisclosure&nbsp;Code&nbsp;Information</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/Annual_Meeting/exhibitors.php\"
+        id=\"MMMenu0602133319_2_Item_6\" class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tExhibitors</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/Annual_Meeting/exhibitor_adv_forms.php\"
+        id=\"MMMenu0602133319_2_Item_7\" class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tExhibitors&nbsp;&amp;&nbsp;Advertisers&nbsp;Forms</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/Annual_Meeting/2013_Special_Events_Form.pdf\"
+        id=\"MMMenu0602133319_2_Item_8\" class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tSpecial&nbsp;Events&nbsp;Form</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/cont_education/\" id=\"MMMenu0602133319_2_Item_9\"
+        class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tContinuing&nbsp;Education</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/econ-harmony/\" id=\"MMMenu0602133319_2_Item_10\"
+        class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tEcon-Harmony</a>\n
+        \        \t</div>\n</div>\n<div id=\"MMMenuContainer0602143505_3\">\n\t<div
+        id=\"MMMenu0602143505_3\" onmouseout=\"MM_menuStartTimeout(1);\" onmouseover=\"MM_menuResetTimeout();\">\n
+        \  \t\t<a href=\"http://www.aeaweb.org/econlit/icon.php\" id=\"MMMenu0602143505_3_Item_0\"
+        class=\"MMMIFVStyleMMMenu0602143505_3\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602143505_3');\">\n\t\t\tEconLit&nbsp;Desktop&nbsp;Link</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/econlit/efm/index.php\" id=\"MMMenu0602143505_3_Item_1\"
+        class=\"MMMIFVStyleMMMenu0602143505_3\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602143505_3');\">\n\t\t\tEconLit&nbsp;for&nbsp;Members</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/jel/guide/\" id=\"MMMenu0602143505_3_Item_2\"
+        class=\"MMMIFVStyleMMMenu0602143505_3\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602143505_3');\">\n\t\t\tJEL&nbsp;Codes&nbsp;Guide</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/jel/jel_class_system.php\" id=\"MMMenu0602143505_3_Item_3\"
+        class=\"MMMIFVStyleMMMenu0602143505_3\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602143505_3');\">\n\t\t\tJEL&nbsp;Classifications</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/econlit/journal_list.php\" id=\"MMMenu0602143505_3_Item_4\"
+        class=\"MMMIFVStyleMMMenu0602143505_3\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602143505_3');\">\n\t\t\tJournal&nbsp;List</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/econlit/corr.php\" id=\"MMMenu0602143505_3_Item_5\"
+        class=\"MMMIFVStyleMMMenu0602143505_3\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602143505_3');\">\n\t\t\tContacts/Corrections</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/econlit/exhibits.php\" id=\"MMMenu0602143505_3_Item_6\"
+        class=\"MMMIFVStyleMMMenu0602143505_3\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602143505_3');\">\n\t\t\tUpcoming&nbsp;Exhibits</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/econlit/doctypes.php\" id=\"MMMenu0602143505_3_Item_7\"
+        class=\"MMMIFVStyleMMMenu0602143505_3\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602143505_3');\">\n\t\t\tDocument&nbsp;Types</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/econlit/search_hints.php\" id=\"MMMenu0602143505_3_Item_8\"
+        class=\"MMMIFVStyleMMMenu0602143505_3\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602143505_3');\">\n\t\t\tSearch&nbsp;Hints</a>\n
+        \        \t</div>\n</div>\n<div id=\"MMMenuContainer0605112640_4\">\n\t<div
+        id=\"MMMenu0605112640_4\" onmouseout=\"MM_menuStartTimeout(1);\" onmouseover=\"MM_menuResetTimeout();\">\n
+        \   <!--[if lte IE 6]><iframe class=\"two\"></iframe><![endif]-->\n   \t\t<a
+        href=\"http://www.aeaweb.org/joe/\" id=\"MMMenu0605112640_4_Item_0\" class=\"MMMIFVStyleMMMenu0605112640_4\"
+        onmouseover=\"MM_menuOverMenuItem('MMMenu0605112640_4');\">\n\t\t\tJOE&nbsp;Listings</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/joe/employ/\" id=\"MMMenu0605112640_4_Item_1\"
+        class=\"MMMIFVStyleMMMenu0605112640_4\" onmouseover=\"MM_menuOverMenuItem('MMMenu0605112640_4');\">\n\t\t\tSubmit&nbsp;a&nbsp;JOE&nbsp;Listing</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/joe/signal/\" id=\"MMMenu0605112640_4_Item_2\"
+        class=\"MMMIFVStyleMMMenu0605112640_4\" onmouseover=\"MM_menuOverMenuItem('MMMenu0605112640_4');\">\n\t\t\tJob&nbsp;Market&nbsp;Signaling</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/joe/scramble\" id=\"MMMenu0605112640_4_Item_3\"
+        class=\"MMMIFVStyleMMMenu0605112640_4\" onmouseover=\"MM_menuOverMenuItem('MMMenu0605112640_4');\">\n\t\t\tJob&nbsp;Market&nbsp;Scramble</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/RFE/toc.php?show=complete\" id=\"MMMenu0605112640_4_Item_4\"
+        class=\"MMMIFVStyleMMMenu0605112640_4\" onmouseover=\"MM_menuOverMenuItem('MMMenu0605112640_4');\">\n\t\t\tResources&nbsp;For&nbsp;Economists&nbsp;</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/RFE/toc.php?show=abridged\" id=\"MMMenu0605112640_4_Item_5\"
+        class=\"MMMIFVStyleMMMenu0605112640_4\" onmouseover=\"MM_menuOverMenuItem('MMMenu0605112640_4');\">\n\t\t\tRFE&nbsp;Abridged&nbsp;Contents</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/RFE/rfe_search.php\" id=\"MMMenu0605112640_4_Item_6\"
+        class=\"MMMIFVStyleMMMenu0605112640_4\" onmouseover=\"MM_menuOverMenuItem('MMMenu0605112640_4');\">\n\t\t\tRFE&nbsp;Search</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/RFE/conferences.php\" id=\"MMMenu0605112640_4_Item_7\"
+        class=\"MMMIFVStyleMMMenu0605112640_4\" onmouseover=\"MM_menuOverMenuItem('MMMenu0605112640_4');\">\n\t\t\tRFE&nbsp;Conferences</a>\n
+        \        \t\t<a href=\"http://ese.rfe.org/\" id=\"MMMenu0605112640_4_Item_8\"
+        class=\"MMMIFVStyleMMMenu0605112640_4\" onmouseover=\"MM_menuOverMenuItem('MMMenu0605112640_4');\">\n\t\t\tEcon&nbsp;Search&nbsp;Engine</a>\n
+        \        \t</div>\n</div>\n<div id=\"MMMenuContainer0816152719_5\">\n\t<div
+        id=\"MMMenu0816152719_5\" onmouseout=\"MM_menuStartTimeout(1);\" onmouseover=\"MM_menuResetTimeout();\">\n
+        \   <!--[if lte IE 6]><iframe class=\"one\"></iframe><![endif]-->\n   \t\t<a
+        href=\"http://www.aeaweb.org/ms2/index.php?return_to=http://www.aeaweb.org/jep/contents/index.php\"
+        id=\"MMMenu0816152719_5_Item_0\" class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tMember&nbsp;Login</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/membership.php\" id=\"MMMenu0816152719_5_Item_1\"
+        class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tBecome&nbsp;a&nbsp;Member</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/ms2/dirSearch.php\" id=\"MMMenu0816152719_5_Item_2\"
+        class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tDirectory&nbsp;of&nbsp;Members</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/econlit/efm/index.php\" id=\"MMMenu0816152719_5_Item_3\"
+        class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tEconLit&nbsp;for&nbsp;Members</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/jstor.php\" id=\"MMMenu0816152719_5_Item_4\"
+        class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tAEA&nbsp;Journals&nbsp;on&nbsp;JSTOR</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/econ-harmony/\" id=\"MMMenu0816152719_5_Item_5\"
+        class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tEcon-Harmony</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/webcasts/index.php\" id=\"MMMenu0816152719_5_Item_6\"
+        class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tAnnual&nbsp;Meeting&nbsp;Webcasts</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/jel/indexes/\" id=\"MMMenu0816152719_5_Item_7\"
+        class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tBrowse&nbsp;JEL&nbsp;Indexes</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/issue.php?mode=vfj\" id=\"MMMenu0816152719_5_Item_8\"
+        class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tVirtual&nbsp;Field&nbsp;Journals</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/subscriptions.php\" id=\"MMMenu0816152719_5_Item_9\"
+        class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tInstitutional&nbsp;Subscriptions</a>\n
+        \        \t</div>\n</div>\n</div><!-- End paste of nav bar from exported Fireworks
+        HTML -->\n<!-- End Top Navigtaion Bar -->\n      </td>\n    </tr>\n    \n
+        \   <tr>\n      <td id=\"columnLeft\">\n      \n      <div id=\"colLftImage1\"><img
+        src=\"/include/images/login.gif\" alt=\"AEA Logo\" width=\"124\" height=\"17\"
+        /></div>\n<!--*--><b><p class=\"columnLeftDots\"><a href=\"/membership.php\"><font
+        size=\"2\">Become an<br/>AEA Member!</font></a></p></b>\n      \t<p class=\"columnLeftDots\"><strong>Connect
+        with the AEA:</strong><br/><br/><a href=\"/notify/notify.html\">eTOC Alerts</a>
+        |\n<!--*--><a href=\"/rss/\">RSS</a><br/>\n<a href=\"/webcasts/index.php\">Webcasts</a>
+        | <a href=\"http://www.twitter.com/AEAjournals/\">Twitter</a></p>\n\n<div
+        class=\"colLftBox\">Policies</div>\n<p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/aea_journals/AEA_Disclosure_Policy.pdf\">AEA
+        Disclosure Policy</a></p>\n<p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/permissions.php\">AEA
+        Copyright Policy</a></p>\n      \t     \n      <div class=\"colLftBox\">What's
+        New!</div>\n        <p class=\"columnLeftDots\"><a href=\"/joe/current/\">June
+        2012 JOE<br/>(Job Openings for Economists)</a></p>\n        <p class=\"columnLeftDots\"><a
+        href=\"/webcasts/2012/index.php\">2012 AEA Annual Meeting Webcasts</a></p>\n
+        \       <p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/aea/2012conference/program/meetingpapers.php\">2012
+        AEA Annual Meeting Papers</a></p>\n<!--*--><p class=\"columnLeftDots\"><a
+        href=\"/news.php\">News & Notes</a></p> \n\n        \n      <div class=\"colLftBox\">Committees</div>\n<!--*--><p
+        class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/committees/AEAStat/index.php\">AEAStat
+        (Statistics)</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.cswep.org/\">CSWEP
+        (Women)</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/committees/CSMGEP/index.php\">CSMGEP
+        (Minorities)</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/committees/AEACEE/index.php\">Economic
+        Education</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/committees/Govt_Relations/index.php\">Government
+        Relations</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/committees/index.php\">All
+        Committees</a></p>\n        \n      <div class=\"colLftBox\">Education & Career</div>\n<!--*--><p
+        class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/gradstudents/index.php\">Graduate
+        Students</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/students/index.php\">Undergraduate
+        Students</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/cont_education/index.php\">Continuing
+        Education Program</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/joe/\">Job
+        Openings (JOE)</a></p>\n\n      <div class=\"colLftBox\">Features</div>\n<!--*--><p
+        class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/jel/guide/\">JEL
+        Classifications Guide</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/webcasts/index.php\">Annual
+        Meeting Webcasts</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/aea_journals.php\">Forthcoming
+        Articles</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/jel/indexes/\">Browse
+        the current contents of more than 1100 journals</a></p>\n\n        \n        <p>&nbsp;</p>\n
+        \       \n      </td>\n      \n      \n  \n<td id=\"columnMiddle\">\n<h1>The
+        <i>Journal of Economic Perspectives</i>: Tables of Contents</h1>\n\n\n      <img
+        src=\"/images/jep_cover.jpg\" alt=\"JEL cover\" hspace=10 vspace=2 height=280
+        width=200 align=LEFT><h3><b><em>Journal of Economic Perspectives</em>: Tables
+        of Contents of Current and Previous Issues</b></h3>\nOnline issues of the
+        <em>Journal of Economic Perspectives</em> published since 1994 are now publicly
+        accessible at no charge, compliments of the American Economic Association.\n
+        \     <p><br><br><br></p>\n\n\t\t<br clear=all>\n\n <hr>\n\n<h3><a name=\"previss\"></a><em>Journal
+        of Economic Perspectives</em><br>Tables of Contents</h3>\n\n<p>\n<a href=\"/issue.php?doi=10.1257/jep.26.2\">Spring
+        2012</a> -- Vol. 26, No. 2<br/>\n<a href=\"/issue.php?doi=10.1257/jep.26.1\">Winter
+        2012</a> -- Vol. 26, No. 1<br/><br/>\n<a href=\"http://www.aeaweb.org/issue.php?doi=10.1257/jep.25.4\">Fall
+        2011</a> -- Vol. 25, No. 4<br/>\n<a href=\"http://www.aeaweb.org/issue.php?doi=10.1257/jep.25.3\">Summer
+        2011</a> -- Vol. 25, No. 3<br/>\n<a href=\"/issue.php?journal=JEP&volume=25&issue=2\">Spring
+        2011</a> -- Vol. 25, No. 2\n       <br/>\n<a href=\"/issue.php?journal=JEP&volume=25&issue=1\">Winter
+        2011</a> -- Vol. 25, No. 1\n       <br/><br/>\n<a href=\"/issue.php?journal=JEP&volume=24&issue=4\">Fall
+        2010</a> -- Vol. 24, No. 4<br/>\n  <a href=\"/issue.php?journal=JEP&amp;volume=24&amp;issue=3\">Summer
+        2010</a> -- Vol. 24, No. 3<br />\n  <a href=\"/issue.php?journal=JEP&volume=24&issue=2\">Spring
+        2010</a> -- Vol. 24, No. 2\n       <br/>\n                <a href=\"/issue.php?journal=JEP&volume=24&issue=1\">Winter
+        2010</a> -- Vol. 24, No. 1\n       <br/><br/> \n\n<a href=\"/issue.php?journal=JEP&volume=23&issue=4\">Fall
+        2009</a> -- Vol. 23, No. 4<br/>\n<a href=\"/issue.php?journal=JEP&amp;volume=23&amp;issue=3\">Summer
+        2009</a> -- Vol. 23, No. 3<br/>\n<a href=\"/issue.php?journal=JEP&amp;volume=23&amp;issue=2\">Spring
+        2009</a> -- Vol. 23, No. 2<br/>\n<a href=\"/issue.php?journal=JEP&amp;volume=23&amp;issue=1\">Winter
+        2009</a> -- Vol. 23, No. 1<br />\n    <a href=\"/issue.php?journal=JEP&volume=22&issue=4\"><br
+        />\n    Fall 2008</a> -- Vol. 22, No. 4<br>\n      <a href=\"/issue.php?journal=JEP&volume=22&issue=3\">Summer
+        2008</a> -- Vol. 22, No. 3<br>\n      <a href=\"/issue.php?journal=JEP&volume=22&issue=2\">Spring
+        2008</a> -- Vol. 22, No. 2<br>\n      <a href=\"/issue.php?journal=JEP&volume=22&issue=1\">Winter
+        2008</a> -- Vol. 22, No. 1</p>\n<p>\n<a href=\"/issue.php?journal=JEP&volume=21&issue=4\">Fall
+        2007</a> -- Vol. 21, No. 4<br />\n<a href=\"/issue.php?journal=JEP&volume=21&issue=3\">Summer
+        2007</a> -- Vol. 21, No. 3<br />\n<a href=\"/issue.php?journal=JEP&volume=21&issue=2\">Spring
+        2007</a> -- Vol. 21, No. 2<br />\n<a href=\"/issue.php?journal=JEP&volume=21&issue=1\">Winter
+        2007</a> -- Vol. 21, No. 1</p>\n<p>\n<a href=\"/issue.php?journal=JEP&volume=20&issue=4\">Fall
+        2006</a> -- Vol. 20, No. 4<br />\n<a href=\"/issue.php?journal=JEP&volume=20&issue=3\">Summer
+        2006</a> -- Vol. 20, No. 3<br />\n<a href=\"/issue.php?journal=JEP&volume=20&issue=2\">Spring
+        2006</a> -- Vol. 20, No. 2<br />\n<a href=\"/issue.php?journal=JEP&volume=20&issue=1\">Winter
+        2006</a> -- Vol. 20, No. 1</p>\n<p align=\"left\">\n<a href=\"/issue.php?journal=JEP&volume=19&issue=4\">Fall
+        2005</a> -- Vol. 19, No. 4<br />\n<a href=\"/issue.php?journal=JEP&volume=19&issue=3\">Summer
+        2005</a> -- Vol. 19, No. 3<br />\n<a href=\"/issue.php?journal=JEP&volume=19&issue=2\">Spring
+        2005</a> -- Vol. 19, No. 2<br />\n<a href=\"/issue.php?journal=JEP&volume=19&issue=1\">Winter
+        2005</a> -- Vol. 19, No. 1</p>\n\n<p align=\"left\">\n<a href=\"/issue.php?journal=JEP&volume=18&issue=4\">Fall
+        2004</a> -- Vol. 18, No. 4<br />\n<a href=\"/issue.php?journal=JEP&volume=18&issue=3\">Summer
+        2004</a> -- Vol. 18, No. 3<br />\n<a href=\"/issue.php?journal=JEP&volume=18&issue=2\">Spring
+        2004</a> -- Vol. 18, No. 2<br />\n<a href=\"/issue.php?journal=JEP&volume=18&issue=1\">Winter
+        2004</a> -- Vol. 18, No. 1</p>\n\n<p align=\"left\">\n<a href=\"/issue.php?journal=JEP&volume=17&issue=4\">Fall
+        2003</a> -- Vol. 17, No. 4<br />\n<a href=\"/issue.php?journal=JEP&volume=17&issue=3\">Summer
+        2003</a> -- Vol. 17, No. 3<br />\n<a href=\"/issue.php?journal=JEP&volume=17&issue=2\">Spring
+        2003</a> -- Vol. 17, No. 2<br />\n<a href=\"/issue.php?journal=JEP&volume=17&issue=1\">Winter
+        2003</a> -- Vol. 17, No. 1</p>\n\n<p align=\"left\">\n<a href=\"/issue.php?journal=JEP&volume=16&issue=4\">Fall
+        2002</a> -- Vol. 16, No. 4<br />\n<a href=\"/issue.php?journal=JEP&volume=16&issue=3\">Summer
+        2002</a> -- Vol. 16, No. 3<br />\n<a href=\"/issue.php?journal=JEP&volume=16&issue=2\">Spring
+        2002</a> -- Vol. 16, No. 2<br />\n<a href=\"/issue.php?journal=JEP&volume=16&issue=1\">Winter
+        2002</a> -- Vol. 16, No. 1<br />\n</p>\n\n<p align=\"left\">\n  <a href=\"/issue.php?journal=JEP&volume=15&issue=4\">Fall
+        2001</a> -- Vol. 15, No. 4<br />\n  <a href=\"/issue.php?journal=JEP&volume=15&issue=3\">Summer
+        2001</a> -- Vol. 15, No. 3<br />\n  <a href=\"/issue.php?journal=JEP&volume=15&issue=2\">Spring
+        2001</a> -- Vol. 15, No. 2<br />\n  <a href=\"/issue.php?journal=JEP&volume=15&issue=1\">Winter
+        2001</a> -- Vol. 15, No. 1</p>\n<p align=\"left\">\n  <a href=\"/issue.php?journal=JEP&volume=14&issue=4\">Fall
+        2000</a> -- Vol. 14, No. 4<br />\n  <a href=\"/issue.php?journal=JEP&volume=14&issue=3\">Summer
+        2000</a> -- Vol. 14, No. 3<br />\n  <a href=\"/issue.php?journal=JEP&volume=14&issue=2\">Spring
+        2000</a> -- Vol. 14, No. 2<br />\n  <a href=\"/issue.php?journal=JEP&volume=14&issue=1\">Winter
+        2000</a> -- Vol. 14, No. 1</p>\n\n<p align=\"left\">\n  <a href=\"/issue.php?journal=JEP&volume=13&issue=4\">Fall
+        1999</a> -- Vol. 13, No. 4<br />\n  <a href=\"/issue.php?journal=JEP&volume=13&issue=3\">Summer
+        1999</a> -- Vol. 13, No. 3<br />\n  <a href=\"/issue.php?journal=JEP&volume=13&issue=2\">Spring
+        1999</a> -- Vol. 13, No. 2<br />\n  <a href=\"/issue.php?journal=JEP&volume=13&issue=1\">Winter
+        1999</a> -- Vol. 13, No. 1</p>\n  \n\n<p align=\"left\">\n  <a href=\"/issue.php?journal=JEP&volume=12&issue=4\">Fall
+        1998</a> -- Vol. 12, No. 4<br />\n  <a href=\"/issue.php?journal=JEP&volume=12&issue=3\">Summer
+        1998</a> -- Vol. 12, No. 3<br />\n  <a href=\"/issue.php?journal=JEP&volume=12&issue=2\">Spring
+        1998</a> -- Vol. 12, No. 2<br />\n  <a href=\"/issue.php?journal=JEP&volume=12&issue=1\">Winter
+        1998</a> -- Vol. 12, No. 1\n  </p>\n  <p align=\"left\">\n  <a href=\"/issue.php?journal=JEP&volume=11&issue=4\">Fall
+        1997</a> -- Vol. 11, No. 4<br />\n  <a href=\"/issue.php?journal=JEP&volume=11&issue=3\">Summer
+        1997</a> -- Vol. 11, No. 3<br />\n  <a href=\"/issue.php?journal=JEP&volume=11&issue=2\">Spring
+        1997</a> -- Vol. 11, No. 2<br />\n  <a href=\"/issue.php?journal=JEP&volume=11&issue=1\">Winter
+        1997</a> -- Vol. 11, No. 1\n  </p>\n <p align=\"left\">\n  <a href=\"/issue.php?journal=JEP&volume=10&issue=4\">Fall
+        1996</a> -- Vol. 10, No. 4<br />\n  <a href=\"/issue.php?journal=JEP&volume=10&issue=3\">Summer
+        1996</a> -- Vol. 10, No. 3<br />\n  <a href=\"/issue.php?journal=JEP&volume=10&issue=2\">Spring
+        1996</a> -- Vol. 10, No. 2<br />\n  <a href=\"/issue.php?journal=JEP&volume=10&issue=1\">Winter
+        1996</a> -- Vol. 10, No. 1\n  </p>\n\n <p align=\"left\">\n  <a href=\"/issue.php?journal=JEP&volume=9&issue=4\">Fall
+        1995</a> -- Vol. 9, No. 4<br />\n  <a href=\"/issue.php?journal=JEP&volume=9&issue=3\">Summer
+        1995</a> -- Vol. 9,\n No. 3<br />\n  <a href=\"/issue.php?journal=JEP&volume=9&issue=2\">Spring
+        1995</a> -- Vol. 9,\n No. 2<br />\n  <a href=\"/issue.php?journal=JEP&volume=9&issue=1\">Winter
+        1995</a> -- Vol. 9,\n No. 1\n  </p>\n <p align=\"left\">\n  <a href=\"/issue.php?journal=JEP&volume=8&issue=4\">Fall
+        1994</a> -- Vol. 8, No. 4<br />\n  <a href=\"/issue.php?journal=JEP&volume=8&issue=3\">Summer
+        1994</a> -- Vol. 8,\n No. 3<br />\n  <a href=\"/issue.php?journal=JEP&volume=8&issue=2\">Spring
+        1994</a> -- Vol. 8,\n No. 2<br />\n  <a href=\"/issue.php?journal=JEP&volume=8&issue=1\">Winter
+        1994</a> -- Vol. 8,\n No. 1\n  </p>\n\n  \n      </td>\n\n </td>\n     <td
+        id=\"columnRight\">\n    <form id=\"formRt\" name=\"formRt\" method=\"post\"
+        action=\"\">\n   \t<div id=\"textRt\"><label>Search</label></div>\n        \t<select
+        id=\"search\" style=\"font-size:9px;\">\n    \t\t<option value=\"/articles_search.php\">Journal
+        Articles</option>\n    \t\t<option value=\"/rfe/rfe_search.php\">Resources
+        for Economists</option>\n    \t\t<option value=\"/econlit/efm\">EconLit for
+        Members</option>\n   <!-- \t\t<option value=\"/clusty.php\">AEAweb - Cluster</option>
+        -->\n\t\t\t<option value=\"/search.php\">Site Search - Google</option>   \n
+        \   \t</select> <input type=\"button\" value=\"\" class=\"btnGoRt\"\n    \t\tonmouseover=\"this.className='btnGoRt
+        btnRtHov'\"\n    \t\tonmouseout=\"this.className='btnGoRt'\"\n    \t\tonclick=\"top.location.href
+        = document.getElementById('search').value;\" />\n    \t<br />\n\t</form>       <form
+        id=\"formRt\" action=\"/quicklink.php\" method=\"post\" name=\"quick_links_form\"
+        target=\"_top\">\n   \t<div id=\"textRt\"><label>Quick Links</label></div>\n
+        \       <form action=\"/quicklink.php\" method=\"post\" name=\"quick_links_form\"
+        target=\"_top\">\n    <select name=\"ql_url\" size=\"1\" style=\"font-size:9px;\">\n
+        \   <option value=\"http://www.aeaweb.org/students/WhatIsEconomics.php\">What
+        is Economics?</option>\n    <option value=\"http://www.aeaweb.org/students/Careers.php\">Careers
+        in Economics</option>\n    <option value=\"http://www.aeaweb.org/jel/guide/\">JEL
+        Classifications Guide</option>\n    <option value=\"http://www.aeaweb.org/aea/2011conference/program/preliminary.php\">Annual
+        Meeting Program</option>\n    <option value=\"http://www.aeaweb.org/econlit/journal_list.php\">EconLit
+        Journal List</option>\n    <option value=\"http://www.aeaweb.org/RFE/conferences.php\">RFE:
+        Conference Listings</option>\n    <option value=\"http://www.aeaweb.org/funding/funding.php\">Funding/Grant
+        Info</option>\n<!--    <option value=\"http://www.aeaweb.org/\">12345678901234567890</option>
+        -->\n    </select>\n    <input name=\"quicklink\" type=\"hidden\" value=\"request\"
+        />\n <!--   <input name=\"ql\" type=\"submit\" value=\"Go\"  style=\"font-size:10px;\"
+        /> -->\n<input type=\"submit\" value=\"\" class=\"btnGoRt\"\n    \t\tonmouseover=\"this.className='btnGoRt
+        btnRtHov'\"\n    \t\tonmouseout=\"this.className='btnGoRt'\" >\n<br /><br
+        />\n    </form>\n      <p class=\"colRtBox\"><u>The Journal of Economic Perspectives</u></p>\n
+        \     <p class=\"columnRightDots\"><a href=\"/jep/JEP_2011_Report.pdf\"><b>Report
+        of the Editor</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/jep/contact.php\"><b>Editors
+        and Contacts</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/jep/edpolicy.php\"><b>Editorial
+        Policy</b></a></p>\n<p class=\"columnRightDots\"><a href=\"/aea_journals/AEA_Disclosure_Policy.pdf\"><b>AEA
+        Disclosure Policy</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/jep/submissions.php\"><b>Submitting
+        Paper Proposals</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/subscribe.php\"><b>Institutional
+        Subscription</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/membership.php\"><b>Member
+        Print Subscription</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/permissions.php\"><b>Copyright
+        & Reprint Permissions</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/jep/notes/index.php\"><b>JEP
+        Notes</b></a></p>      \n      <p><a href=\"/bulletinboard.php\"><b>Bulletin
+        Board</b></a></p>\n      <div class=\"colRtTint\">\n      <p class=\"colRtBox\">Issues
+        and Articles</p>\n      \n      <p class=\"columnRightDots\"><a href=\"/issue.php?journal=JEP&volume=26&issue=2\"><b>Spring
+        2012 JEP</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/jep/contents/index.php\"><b>Previous
+        Issues</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/articles_search.php\"><b>Search
+        Articles</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/jep/mobile.php\"><b>Kindle
+        and e-Reader Full Issue Downloads</b></a></p>\n      <p class=\"colRtBox\">Tools</p>\n
+        \     <p class=\"columnRightDots\"><a href=\"/notify/notify.html\"><b>eTOC
+        Alert for JEP</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/jep/contents/sgml.php\"><b>SGML
+        Encoded Citations</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/virtual/login.php\"><b>Virtual
+        Field Journals</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"https://auth.athensams.net/?ath_returl=http%3A%2F%2Fpubs.aeaweb.org%2Faction%2FathensAuthenticate%3FcurrUrl%3D%252F&ath_dspid=AEA\"><b>Athens
+        Login</b> (for Athens Subscribers only)</a></p>\n      <p class=\"colRtBox\">Announcements!</p>\n
+        \     <p class=\"columnRightDots\"><a href=\"/jep/mobile.php\">Kindle and
+        other e-reader versions of <em>JEP</em> now available FREE at the AEA website
+        or, for instant wireless delivery, purchase <em>JEP</em> at Amazon.com!</a></p>
+        \n      <p class=\"columnRightDots\">Online issues of the <em>Journal of Economic
+        Perspectives</em> published since 1994\nare now publicly accessible at no
+        charge, compliments of the American\nEconomic Association.</p>\n      <p class=\"columnRightDots\">John
+        A. List (University of Chicago) has joined the <i>Journal of Economic Perspectives</i>
+        as a co-editor.</p>\n      <p class=\"columnRightDots\">David Autor (MIT)
+        has succeeded Andrei Shleifer (Harvard) as editor\nof the <i>Journal of Economic
+        Perspectives</i>.</p>\n     </div>\n     <p><a href=\"mailto:info@econlit.org\">Contact
+        Us</a></p>\n</td>\n    </tr>\n\n    <tr>\n      <td colspan=\"3\" id=\"footer1\">\n
+        \     <ul id=\"footer2\">\n        <li id=\"footerLftBorder\"><a href=\"http://www.vanderbilt.edu/AEA/\">AEA</a></li>\n<li><a
+        href=\"/aea_journals.php\">Journals</a></li>\n<li><a href=\"/Annual_Meeting/\">Annual
+        Meeting</a></li>\n        <li><a href=\"/econlit/index.php\">EconLit</a></li>\n
+        \       <li><a href=\"/rfe/\">RFE</a></li>\n        <li><a href=\"/joe/\">JOE</a></li>\n
+        \       <li><a href=\"/membership.php\">Members</a></li>\n      </ul>\n      </td>\n
+        \   </tr>\n  </table>\n  </div>\n  <div id=\"copyright\">&copy;  2012 AEA.
+        The American Economic Association is hosted by Vanderbilt University.</div>\n</div>\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Sun, 17 Jun 2012 06:04:53 GMT
+- request:
+    method: get
+    uri: http://www.aeaweb.org/jep/contents/index.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Mechanize/2.5.1 Ruby/1.9.3p194 (http://github.com/tenderlove/mechanize/)
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - www.aeaweb.org
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 17 Jun 2012 06:04:54 GMT
+      Server:
+      - Apache/2.2.22
+      Keep-Alive:
+      - timeout=5, max=100
+      Connection:
+      - Keep-Alive
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html
+    body:
+      encoding: US-ASCII
+      string: ! "\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<base
+        target=\"_top\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html;
+        charset=UTF-8\" />\n<title>The Journal of Economic Perspectives: Tables of
+        Contents</title>\n<link type=\"text/css\" rel=\"stylesheet\" href=\"/include/jQuery/css/custom-theme/jquery-ui-1.8.custom.css\"
+        />\n<script type=\"text/javascript\" src=\"/include/jQuery/js/jquery-1.4.2.min.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/include/jQuery/js/jquery-ui-1.8.12.custom.min.js\"></script>\n<script
+        type=\"text/javascript\">\n//\t$(document).ready(function() {\n//\t\t$.ajax({\n//\t\t
+        \   url: 'http://www.aeaweb.org/include/entrywriter.php',\n//\t\t    data:
+        {scr_height: screen.height, scr_width: screen.width, height: $(window).height(),
+        width: $(window).width(), use_agent: navigator.userAgent },\n//\t\t    type:
+        'POST',\n//\t\t    dataType: 'script'\n//\t\t});\n//\t});\n</script>\n<script
+        language=\"JavaScript1.2\" type=\"text/javascript\">\n<!--\nfunction MM_findObj(n,
+        d) { //v4.01\n  var p,i,x;  if(!d) d=document; if((p=n.indexOf(\"?\"))>0&&parent.frames.length)
+        {\n    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}\n
+        \ if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];\n
+        \ for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);\n
+        \ if(!x && d.getElementById) x=d.getElementById(n); return x;\n}\nfunction
+        MM_swapImage() { //v3.0\n  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new
+        Array; for(i=0;i<(a.length-2);i+=3)\n   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x;
+        if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}\n}\nfunction MM_swapImgRestore()
+        { //v3.0\n  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++)
+        x.src=x.oSrc;\n}\n\nfunction MM_preloadImages() { //v3.0\n  var d=document;
+        if(d.images){ if(!d.MM_p) d.MM_p=new Array();\n    var i,j=d.MM_p.length,a=MM_preloadImages.arguments;
+        for(i=0; i<a.length; i++)\n    if (a[i].indexOf(\"#\")!=0){ d.MM_p[j]=new
+        Image; d.MM_p[j++].src=a[i];}}\n}\nfunction loadDialog(title, destination){\n\t$('#dialog').load(destination);\n\t$('#dialog').dialog({\n\t\ttitle:
+        title,\n\t\twidth: 600,\n\t\theight: 'auto',\n\t\tresizable: false,\n\t\tmodal:
+        true\n\t});\n}\n//-->\n</script>\n<script language=\"JavaScript1.2\" type=\"text/javascript\"
+        src=\"/include/NavBar_22a/mm_css_menu_v.js\"></script>\n<link href=\"/include/NavBar_22a/NavBar_01_v.css\"
+        rel=\"stylesheet\" type=\"text/css\" media=\"screen\" />\n<link href=\"/include/stylesMain.css\"
+        rel=\"stylesheet\" type=\"text/css\" media=\"screen\" />\n<link href=\"/include/stylesPrint.css\"
+        rel=\"stylesheet\" type=\"text/css\" media=\"print\" />\n</head>\n<body bgcolor=\"#ffffff\"
+        onload=\"MM_preloadImages('/include/NavBar_22a/Nav_Bar_01/navBar_02_s2.gif','/include/NavBar_22a/Nav_Bar_01/navBar_03_s2.gif','/include/NavBar_22a/Nav_Bar_01/navBar_04_s2.gif','/include/NavBar_22a/Nav_Bar_01/navBar_05_s2.gif','/include/NavBar_22a/Nav_Bar_01/navBar_06_s2.gif','/include/NavBar_22a/Nav_Bar_01/NavBar_08_s2.gif');\">\n\n<div
+        id=\"centerMain\">\n<div>\n  <table cellspacing=\"0\" id=\"outline\">\n    <tr>\n
+        \     <td colspan=\"3\" id=\"header1\"><a href=\"http://www.vanderbilt.edu/AEA/\"><img
+        src=\"/include/images/header_v.jpg\" alt=\"American Economics Association\"
+        width=\"770\" height=\"100\" border=\"0\" /></a></td>\n    </tr>\n    <tr>\n
+        \     <td colspan=\"3\">\n<div id=\"FWTableContainer1611627588\">\n<table
+        style=\"display: inline-table;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"
+        width=\"770\">\n<!-- fwtable fwsrc=\"NavBar_22a.png\" fwpage=\"Page 1\" fwbase=\"NavBar_01.gif\"
+        fwstyle=\"Dreamweaver\" fwdocid = \"1611627588\" fwnested=\"0\" -->\n  <tr>\n
+        \  <td><img src=\"/include/NavBar_22a/Nav_Bar_01/spacer.gif\" width=\"168\"
+        height=\"1\" border=\"0\" alt=\"\" /></td>\n   <td><img src=\"/include/NavBar_22a/Nav_Bar_01/spacer.gif\"
+        width=\"63\" height=\"1\" border=\"0\" alt=\"\" /></td>\n   <td><img src=\"/include/NavBar_22a/Nav_Bar_01/spacer.gif\"
+        width=\"101\" height=\"1\" border=\"0\" alt=\"\" /></td>\n   <td><img src=\"/include/NavBar_22a/Nav_Bar_01/spacer.gif\"
+        width=\"148\" height=\"1\" border=\"0\" alt=\"\" /></td>\n   <td><img src=\"/include/NavBar_22a/Nav_Bar_01/spacer.gif\"
+        width=\"83\" height=\"1\" border=\"0\" alt=\"\" /></td>\n   <td><img src=\"/include/NavBar_22a/Nav_Bar_01/spacer.gif\"
+        width=\"108\" height=\"1\" border=\"0\" alt=\"\" /></td>\n   <td><img src=\"/include/NavBar_22a/Nav_Bar_01/spacer.gif\"
+        width=\"99\" height=\"1\" border=\"0\" alt=\"\" /></td>\n   <td><img src=\"/include/NavBar_22a/Nav_Bar_01/spacer.gif\"
+        width=\"1\" height=\"1\" border=\"0\" alt=\"\" /></td>\n  </tr>\n  <tr>\n
+        \  <td><img name=\"navBar_01_s1\" src=\"/include/NavBar_22a/Nav_Bar_01/navBar_01_s1.gif\"
+        width=\"168\" height=\"21\" border=\"0\" id=\"navBar_01_s1\" alt=\"\" /></td>\n
+        \  <td><a href=\"http://www.vanderbilt.edu/AEA/\" onmouseout=\"MM_swapImgRestore();MM_menuStartTimeout(1);\"
+        onmouseover=\"MM_menuShowMenu('MMMenuContainer0602114000_0', 'MMMenu0602114000_0',2,21,'navBar_02_s1');MM_swapImage('navBar_02_s1','','/include/NavBar_22a/Nav_Bar_01/navBar_02_s2.gif',1);\"><img
+        name=\"navBar_02_s1\" src=\"/include/NavBar_22a/Nav_Bar_01/navBar_02_s1.gif\"
+        width=\"63\" height=\"21\" border=\"0\" id=\"navBar_02_s1\" alt=\"\" /></a></td>\n
+        \  <td><a href=\"http://www.aeaweb.org/aea_journals.php\" onmouseout=\"MM_swapImgRestore();MM_menuStartTimeout(1);\"
+        onmouseover=\"MM_menuShowMenu('MMMenuContainer0602114333_1', 'MMMenu0602114333_1',0,21,'navBar_03_s1');MM_swapImage('navBar_03_s1','','/include/NavBar_22a/Nav_Bar_01/navBar_03_s2.gif',1);\"><img
+        name=\"navBar_03_s1\" src=\"/include/NavBar_22a/Nav_Bar_01/navBar_03_s1.gif\"
+        width=\"101\" height=\"21\" border=\"0\" id=\"navBar_03_s1\" alt=\"\" /></a></td>\n
+        \  <td><a href=\"http://www.aeaweb.org/Annual_Meeting/index.php\" onmouseout=\"MM_swapImgRestore();MM_menuStartTimeout(1);\"
+        onmouseover=\"MM_menuShowMenu('MMMenuContainer0602133319_2', 'MMMenu0602133319_2',0,21,'navBar_04_s1');MM_swapImage('navBar_04_s1','','/include/NavBar_22a/Nav_Bar_01/navBar_04_s2.gif',1);\"><img
+        name=\"navBar_04_s1\" src=\"/include/NavBar_22a/Nav_Bar_01/navBar_04_s1.gif\"
+        width=\"148\" height=\"21\" border=\"0\" id=\"navBar_04_s1\" alt=\"\" /></a></td>\n
+        \  <td><a href=\"http://www.aeaweb.org/econlit/\" onmouseout=\"MM_swapImgRestore();MM_menuStartTimeout(1);\"
+        onmouseover=\"MM_menuShowMenu('MMMenuContainer0602143505_3', 'MMMenu0602143505_3',2,21,'navBar_05_s1');MM_swapImage('navBar_05_s1','','/include/NavBar_22a/Nav_Bar_01/navBar_05_s2.gif',1);\"><img
+        name=\"navBar_05_s1\" src=\"/include/NavBar_22a/Nav_Bar_01/navBar_05_s1.gif\"
+        width=\"83\" height=\"21\" border=\"0\" id=\"navBar_05_s1\" alt=\"\" /></a></td>\n
+        \  <td><a href=\"http://www.aeaweb.org/joe_rfe.php\" onmouseout=\"MM_swapImgRestore();MM_menuStartTimeout(1);\"
+        onmouseover=\"MM_menuShowMenu('MMMenuContainer0605112640_4', 'MMMenu0605112640_4',0,21,'navBar_06_s1');MM_swapImage('navBar_06_s1','','/include/NavBar_22a/Nav_Bar_01/navBar_06_s2.gif',1);\"><img
+        name=\"navBar_06_s1\" src=\"/include/NavBar_22a/Nav_Bar_01/navBar_06_s1.gif\"
+        width=\"108\" height=\"21\" border=\"0\" id=\"navBar_06_s1\" alt=\"\" /></a></td>\n
+        \  <td><a href=\"http://www.aeaweb.org/membership.php\" onmouseout=\"MM_swapImgRestore();MM_menuStartTimeout(1);\"
+        onmouseover=\"MM_menuShowMenu('MMMenuContainer0816152719_5', 'MMMenu0816152719_5',0,21,'NavBar_08_s1');MM_swapImage('NavBar_08_s1','','/include/NavBar_22a/Nav_Bar_01/NavBar_08_s2.gif',1);\"><img
+        name=\"NavBar_08_s1\" src=\"/include/NavBar_22a/Nav_Bar_01/NavBar_08_s1.gif\"
+        width=\"99\" height=\"21\" border=\"0\" id=\"NavBar_08_s1\" alt=\"\" /></a></td>\n
+        \  <td><img src=\"/include/NavBar_22a/Nav_Bar_01/spacer.gif\" width=\"1\"
+        height=\"21\" border=\"0\" alt=\"\" /></td>\n  </tr>\n</table>\n<div id=\"MMMenuContainer0602114000_0\">\n<div
+        id=\"MMMenu0602114000_0\" onmouseout=\"MM_menuStartTimeout(1);\" onmouseover=\"MM_menuResetTimeout();\">\n\n\t\t\t<a
+        href=\"http://www.aeaweb.org/AboutAEA/index.php\" id=\"MMMenu0602114000_0_Item_0\"
+        class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tAbout&nbsp;the&nbsp;AEA\t\t\t\n            </a> \n\t\t\t<a href=\"http://www.aeaweb.org/committees/index.php\"
+        id=\"MMMenu0602114000_0_Item_1\" class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tCommittees\t\t\t\n            </a> \n\t\t\t<a href=\"http://www.aeaweb.org/honors_awards/index.php\"
+        id=\"MMMenu0602114000_0_Item_2\" class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tHonors&nbsp;&amp;&nbsp;Awards\t\t\t\n            </a> \n\t\t\t<a
+        href=\"http://www.aeaweb.org/gradstudents/\" id=\"MMMenu0602114000_0_Item_3\"
+        class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tFor&nbsp;Graduate&nbsp;Students\t\t\t\n            </a> \n\t\t\t<a
+        href=\"http://www.aeaweb.org/students/\" id=\"MMMenu0602114000_0_Item_4\"
+        class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tFor&nbsp;Undergrad&nbsp;Students\t\t\t\n            </a> \n\t\t\t<a
+        href=\"http://www.aeaweb.org/news.php\" id=\"MMMenu0602114000_0_Item_5\" class=\"MMMIFVStyleMMMenu0602114000_0\"
+        \ onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\" >\n\t\t\tNews&nbsp;&amp;&nbsp;Notes\t\t\t\n
+        \           </a> \n\t\t\t<a href=\"http://www.aeaweb.org/AboutAEA/board.php\"
+        id=\"MMMenu0602114000_0_Item_6\" class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tOfficers\t\t\t\n            </a> \n\t\t\t<a href=\"http://www.aeaweb.org/AboutAEA/gen_info.php\"
+        id=\"MMMenu0602114000_0_Item_7\" class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tGeneral&nbsp;Information\t\t\t\n            </a> \n\t\t\t<a href=\"http://www.aeaweb.org/AboutAEA/meeting_minutes.php\"
+        id=\"MMMenu0602114000_0_Item_8\" class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tMinutes\t\t\t\n            </a> \n\t\t\t<a href=\"http://www.aeaweb.org/UAQ/index.php\"
+        id=\"MMMenu0602114000_0_Item_9\" class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tUA&nbsp;Questionnaire\t\t\t\n            </a> \n\t\t\t<a href=\"http://www.aeaweb.org/cont_education/\"
+        id=\"MMMenu0602114000_0_Item_10\" class=\"MMMIFVStyleMMMenu0602114000_0\"
+        \ onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\" >\n\t\t\tContinuing&nbsp;Education\t\t\t\n
+        \           </a> \n\t\t\t<a href=\"https://www.aeaweb.org/ms2/dirSearch.php\"
+        id=\"MMMenu0602114000_0_Item_11\" class=\"MMMIFVStyleMMMenu0602114000_0\"
+        \ onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\" >\n\t\t\tDirectory&nbsp;of&nbsp;Members\t\t\t\n
+        \           </a> \n\t\t\t<a href=\"http://www.aeaweb.org/Annual_Meeting/call_for_papers.php\"
+        id=\"MMMenu0602114000_0_Item_12\" class=\"MMMIFVStyleMMMenu0602114000_0\"
+        \ onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\" >\n\t\t\tCall&nbsp;for&nbsp;Papers\t\t\t\n
+        \           </a> \n\t\t\t<a href=\"http://www.aeaweb.org/media.php\" id=\"MMMenu0602114000_0_Item_13\"
+        class=\"MMMIFVStyleMMMenu0602114000_0\"  onmouseover=\"MM_menuOverMenuItem('MMMenu0602114000_0');\"
+        >\n\t\t\tMedia\t\t\t\n            </a> </div>\n</div>\n<div id=\"MMMenuContainer0602114333_1\">\n\t<div
+        id=\"MMMenu0602114333_1\" onmouseout=\"MM_menuStartTimeout(1);\" onmouseover=\"MM_menuResetTimeout();\">\n
+        \  \t\t<a href=\"http://www.aeaweb.org/aej/app/index.php\" id=\"MMMenu0602114333_1_Item_0\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\t<i>AEJ:&nbsp;Applied&nbsp;Economics</i></a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/aej/pol/index.php\" id=\"MMMenu0602114333_1_Item_1\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\t<i>AEJ:&nbsp;Economic&nbsp;Policy</i></a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/aej/mac/index.php\" id=\"MMMenu0602114333_1_Item_2\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\t<i>AEJ:&nbsp;Macroeconomics</i></a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/aej/mic/index.php\" id=\"MMMenu0602114333_1_Item_3\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\t<i>AEJ:&nbsp;Microeconomics</i></a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/aer/index.php\" id=\"MMMenu0602114333_1_Item_4\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\t<i>American&nbsp;Economic&nbsp;Review</i></a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/jel/index.php\" id=\"MMMenu0602114333_1_Item_5\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\t<i>Journal&nbsp;of&nbsp;Economic&nbsp;Literature</i></a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/jep/index.php\" id=\"MMMenu0602114333_1_Item_6\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\t<i>Journal&nbsp;of&nbsp;Economic&nbsp;Perspectives</i></a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/notify/notify.php\" id=\"MMMenu0602114333_1_Item_7\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\teTOCs</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/virtual\" id=\"MMMenu0602114333_1_Item_8\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\tVirtual&nbsp;Field&nbsp;Journals</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/subscriptions.php\" id=\"MMMenu0602114333_1_Item_9\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\tInstitutional&nbsp;Subscriptions</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/jstor.php\" id=\"MMMenu0602114333_1_Item_10\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\tAEA&nbsp;Journals&nbsp;on&nbsp;JSTOR</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/advertising.php\" id=\"MMMenu0602114333_1_Item_11\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\tAds&nbsp;in&nbsp;Journals</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/back_issues.php\" id=\"MMMenu0602114333_1_Item_12\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\tBack&nbsp;Issues&nbsp;Order&nbsp;Forms</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/permissions.php\" id=\"MMMenu0602114333_1_Item_13\"
+        class=\"MMMIFVStyleMMMenu0602114333_1\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602114333_1');\">\n\t\t\tCopyright&nbsp;&amp;&nbsp;Permissions</a>\n
+        \        \t</div>\n</div>\n<div id=\"MMMenuContainer0602133319_2\">\n\t<div
+        id=\"MMMenu0602133319_2\" onmouseout=\"MM_menuStartTimeout(1);\" onmouseover=\"MM_menuResetTimeout();\">\n
+        \  \t\t<a href=\"http://www.aeaweb.org/Annual_Meeting/submissions.php\" id=\"MMMenu0602133319_2_Item_0\"
+        class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tSubmissions</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/Annual_Meeting/index.php\" id=\"MMMenu0602133319_2_Item_1\"
+        class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tRegistration/Housing</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/aea/2012conference/program/preliminary.php\"
+        id=\"MMMenu0602133319_2_Item_2\" class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tPreliminary&nbsp;Program</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/aea/2012conference/program/meetingpapers.php\"
+        id=\"MMMenu0602133319_2_Item_3\" class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tAnnual&nbsp;Meeting&nbsp;Papers</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/webcasts/index.php\" id=\"MMMenu0602133319_2_Item_4\"
+        class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tAnnual&nbsp;Meeting&nbsp;Webcasts</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/Annual_Meeting/disclosure_codes.php\"
+        id=\"MMMenu0602133319_2_Item_5\" class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tDisclosure&nbsp;Code&nbsp;Information</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/Annual_Meeting/exhibitors.php\"
+        id=\"MMMenu0602133319_2_Item_6\" class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tExhibitors</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/Annual_Meeting/exhibitor_adv_forms.php\"
+        id=\"MMMenu0602133319_2_Item_7\" class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tExhibitors&nbsp;&amp;&nbsp;Advertisers&nbsp;Forms</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/Annual_Meeting/2013_Special_Events_Form.pdf\"
+        id=\"MMMenu0602133319_2_Item_8\" class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tSpecial&nbsp;Events&nbsp;Form</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/cont_education/\" id=\"MMMenu0602133319_2_Item_9\"
+        class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tContinuing&nbsp;Education</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/econ-harmony/\" id=\"MMMenu0602133319_2_Item_10\"
+        class=\"MMMIFVStyleMMMenu0602133319_2\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602133319_2');\">\n\t\t\tEcon-Harmony</a>\n
+        \        \t</div>\n</div>\n<div id=\"MMMenuContainer0602143505_3\">\n\t<div
+        id=\"MMMenu0602143505_3\" onmouseout=\"MM_menuStartTimeout(1);\" onmouseover=\"MM_menuResetTimeout();\">\n
+        \  \t\t<a href=\"http://www.aeaweb.org/econlit/icon.php\" id=\"MMMenu0602143505_3_Item_0\"
+        class=\"MMMIFVStyleMMMenu0602143505_3\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602143505_3');\">\n\t\t\tEconLit&nbsp;Desktop&nbsp;Link</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/econlit/efm/index.php\" id=\"MMMenu0602143505_3_Item_1\"
+        class=\"MMMIFVStyleMMMenu0602143505_3\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602143505_3');\">\n\t\t\tEconLit&nbsp;for&nbsp;Members</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/jel/guide/\" id=\"MMMenu0602143505_3_Item_2\"
+        class=\"MMMIFVStyleMMMenu0602143505_3\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602143505_3');\">\n\t\t\tJEL&nbsp;Codes&nbsp;Guide</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/jel/jel_class_system.php\" id=\"MMMenu0602143505_3_Item_3\"
+        class=\"MMMIFVStyleMMMenu0602143505_3\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602143505_3');\">\n\t\t\tJEL&nbsp;Classifications</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/econlit/journal_list.php\" id=\"MMMenu0602143505_3_Item_4\"
+        class=\"MMMIFVStyleMMMenu0602143505_3\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602143505_3');\">\n\t\t\tJournal&nbsp;List</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/econlit/corr.php\" id=\"MMMenu0602143505_3_Item_5\"
+        class=\"MMMIFVStyleMMMenu0602143505_3\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602143505_3');\">\n\t\t\tContacts/Corrections</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/econlit/exhibits.php\" id=\"MMMenu0602143505_3_Item_6\"
+        class=\"MMMIFVStyleMMMenu0602143505_3\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602143505_3');\">\n\t\t\tUpcoming&nbsp;Exhibits</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/econlit/doctypes.php\" id=\"MMMenu0602143505_3_Item_7\"
+        class=\"MMMIFVStyleMMMenu0602143505_3\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602143505_3');\">\n\t\t\tDocument&nbsp;Types</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/econlit/search_hints.php\" id=\"MMMenu0602143505_3_Item_8\"
+        class=\"MMMIFVStyleMMMenu0602143505_3\" onmouseover=\"MM_menuOverMenuItem('MMMenu0602143505_3');\">\n\t\t\tSearch&nbsp;Hints</a>\n
+        \        \t</div>\n</div>\n<div id=\"MMMenuContainer0605112640_4\">\n\t<div
+        id=\"MMMenu0605112640_4\" onmouseout=\"MM_menuStartTimeout(1);\" onmouseover=\"MM_menuResetTimeout();\">\n
+        \   <!--[if lte IE 6]><iframe class=\"two\"></iframe><![endif]-->\n   \t\t<a
+        href=\"http://www.aeaweb.org/joe/\" id=\"MMMenu0605112640_4_Item_0\" class=\"MMMIFVStyleMMMenu0605112640_4\"
+        onmouseover=\"MM_menuOverMenuItem('MMMenu0605112640_4');\">\n\t\t\tJOE&nbsp;Listings</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/joe/employ/\" id=\"MMMenu0605112640_4_Item_1\"
+        class=\"MMMIFVStyleMMMenu0605112640_4\" onmouseover=\"MM_menuOverMenuItem('MMMenu0605112640_4');\">\n\t\t\tSubmit&nbsp;a&nbsp;JOE&nbsp;Listing</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/joe/signal/\" id=\"MMMenu0605112640_4_Item_2\"
+        class=\"MMMIFVStyleMMMenu0605112640_4\" onmouseover=\"MM_menuOverMenuItem('MMMenu0605112640_4');\">\n\t\t\tJob&nbsp;Market&nbsp;Signaling</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/joe/scramble\" id=\"MMMenu0605112640_4_Item_3\"
+        class=\"MMMIFVStyleMMMenu0605112640_4\" onmouseover=\"MM_menuOverMenuItem('MMMenu0605112640_4');\">\n\t\t\tJob&nbsp;Market&nbsp;Scramble</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/RFE/toc.php?show=complete\" id=\"MMMenu0605112640_4_Item_4\"
+        class=\"MMMIFVStyleMMMenu0605112640_4\" onmouseover=\"MM_menuOverMenuItem('MMMenu0605112640_4');\">\n\t\t\tResources&nbsp;For&nbsp;Economists&nbsp;</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/RFE/toc.php?show=abridged\" id=\"MMMenu0605112640_4_Item_5\"
+        class=\"MMMIFVStyleMMMenu0605112640_4\" onmouseover=\"MM_menuOverMenuItem('MMMenu0605112640_4');\">\n\t\t\tRFE&nbsp;Abridged&nbsp;Contents</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/RFE/rfe_search.php\" id=\"MMMenu0605112640_4_Item_6\"
+        class=\"MMMIFVStyleMMMenu0605112640_4\" onmouseover=\"MM_menuOverMenuItem('MMMenu0605112640_4');\">\n\t\t\tRFE&nbsp;Search</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/RFE/conferences.php\" id=\"MMMenu0605112640_4_Item_7\"
+        class=\"MMMIFVStyleMMMenu0605112640_4\" onmouseover=\"MM_menuOverMenuItem('MMMenu0605112640_4');\">\n\t\t\tRFE&nbsp;Conferences</a>\n
+        \        \t\t<a href=\"http://ese.rfe.org/\" id=\"MMMenu0605112640_4_Item_8\"
+        class=\"MMMIFVStyleMMMenu0605112640_4\" onmouseover=\"MM_menuOverMenuItem('MMMenu0605112640_4');\">\n\t\t\tEcon&nbsp;Search&nbsp;Engine</a>\n
+        \        \t</div>\n</div>\n<div id=\"MMMenuContainer0816152719_5\">\n\t<div
+        id=\"MMMenu0816152719_5\" onmouseout=\"MM_menuStartTimeout(1);\" onmouseover=\"MM_menuResetTimeout();\">\n
+        \   <!--[if lte IE 6]><iframe class=\"one\"></iframe><![endif]-->\n   \t\t<a
+        href=\"http://www.aeaweb.org/ms2/index.php?return_to=http://www.aeaweb.org/jep/contents/index.php\"
+        id=\"MMMenu0816152719_5_Item_0\" class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tMember&nbsp;Login</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/membership.php\" id=\"MMMenu0816152719_5_Item_1\"
+        class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tBecome&nbsp;a&nbsp;Member</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/ms2/dirSearch.php\" id=\"MMMenu0816152719_5_Item_2\"
+        class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tDirectory&nbsp;of&nbsp;Members</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/econlit/efm/index.php\" id=\"MMMenu0816152719_5_Item_3\"
+        class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tEconLit&nbsp;for&nbsp;Members</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/jstor.php\" id=\"MMMenu0816152719_5_Item_4\"
+        class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tAEA&nbsp;Journals&nbsp;on&nbsp;JSTOR</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/econ-harmony/\" id=\"MMMenu0816152719_5_Item_5\"
+        class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tEcon-Harmony</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/webcasts/index.php\" id=\"MMMenu0816152719_5_Item_6\"
+        class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tAnnual&nbsp;Meeting&nbsp;Webcasts</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/jel/indexes/\" id=\"MMMenu0816152719_5_Item_7\"
+        class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tBrowse&nbsp;JEL&nbsp;Indexes</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/issue.php?mode=vfj\" id=\"MMMenu0816152719_5_Item_8\"
+        class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tVirtual&nbsp;Field&nbsp;Journals</a>\n
+        \        \t\t<a href=\"http://www.aeaweb.org/subscriptions.php\" id=\"MMMenu0816152719_5_Item_9\"
+        class=\"MMMIFVStyleMMMenu0816152719_5\" onmouseover=\"MM_menuOverMenuItem('MMMenu0816152719_5');\">\n\t\t\tInstitutional&nbsp;Subscriptions</a>\n
+        \        \t</div>\n</div>\n</div><!-- End paste of nav bar from exported Fireworks
+        HTML -->\n<!-- End Top Navigtaion Bar -->\n      </td>\n    </tr>\n    \n
+        \   <tr>\n      <td id=\"columnLeft\">\n      \n      <div id=\"colLftImage1\"><img
+        src=\"/include/images/login.gif\" alt=\"AEA Logo\" width=\"124\" height=\"17\"
+        /></div>\n<!--*--><b><p class=\"columnLeftDots\"><a href=\"/membership.php\"><font
+        size=\"2\">Become an<br/>AEA Member!</font></a></p></b>\n      \t<p class=\"columnLeftDots\"><strong>Connect
+        with the AEA:</strong><br/><br/><a href=\"/notify/notify.html\">eTOC Alerts</a>
+        |\n<!--*--><a href=\"/rss/\">RSS</a><br/>\n<a href=\"/webcasts/index.php\">Webcasts</a>
+        | <a href=\"http://www.twitter.com/AEAjournals/\">Twitter</a></p>\n\n<div
+        class=\"colLftBox\">Policies</div>\n<p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/aea_journals/AEA_Disclosure_Policy.pdf\">AEA
+        Disclosure Policy</a></p>\n<p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/permissions.php\">AEA
+        Copyright Policy</a></p>\n      \t     \n      <div class=\"colLftBox\">What's
+        New!</div>\n        <p class=\"columnLeftDots\"><a href=\"/joe/current/\">June
+        2012 JOE<br/>(Job Openings for Economists)</a></p>\n        <p class=\"columnLeftDots\"><a
+        href=\"/webcasts/2012/index.php\">2012 AEA Annual Meeting Webcasts</a></p>\n
+        \       <p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/aea/2012conference/program/meetingpapers.php\">2012
+        AEA Annual Meeting Papers</a></p>\n<!--*--><p class=\"columnLeftDots\"><a
+        href=\"/news.php\">News & Notes</a></p> \n\n        \n      <div class=\"colLftBox\">Committees</div>\n<!--*--><p
+        class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/committees/AEAStat/index.php\">AEAStat
+        (Statistics)</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.cswep.org/\">CSWEP
+        (Women)</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/committees/CSMGEP/index.php\">CSMGEP
+        (Minorities)</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/committees/AEACEE/index.php\">Economic
+        Education</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/committees/Govt_Relations/index.php\">Government
+        Relations</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/committees/index.php\">All
+        Committees</a></p>\n        \n      <div class=\"colLftBox\">Education & Career</div>\n<!--*--><p
+        class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/gradstudents/index.php\">Graduate
+        Students</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/students/index.php\">Undergraduate
+        Students</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/cont_education/index.php\">Continuing
+        Education Program</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/joe/\">Job
+        Openings (JOE)</a></p>\n\n      <div class=\"colLftBox\">Features</div>\n<!--*--><p
+        class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/jel/guide/\">JEL
+        Classifications Guide</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/webcasts/index.php\">Annual
+        Meeting Webcasts</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/aea_journals.php\">Forthcoming
+        Articles</a></p>\n<!--*--><p class=\"columnLeftDots\"><a href=\"http://www.aeaweb.org/jel/indexes/\">Browse
+        the current contents of more than 1100 journals</a></p>\n\n        \n        <p>&nbsp;</p>\n
+        \       \n      </td>\n      \n      \n  \n<td id=\"columnMiddle\">\n<h1>The
+        <i>Journal of Economic Perspectives</i>: Tables of Contents</h1>\n\n\n      <img
+        src=\"/images/jep_cover.jpg\" alt=\"JEL cover\" hspace=10 vspace=2 height=280
+        width=200 align=LEFT><h3><b><em>Journal of Economic Perspectives</em>: Tables
+        of Contents of Current and Previous Issues</b></h3>\nOnline issues of the
+        <em>Journal of Economic Perspectives</em> published since 1994 are now publicly
+        accessible at no charge, compliments of the American Economic Association.\n
+        \     <p><br><br><br></p>\n\n\t\t<br clear=all>\n\n <hr>\n\n<h3><a name=\"previss\"></a><em>Journal
+        of Economic Perspectives</em><br>Tables of Contents</h3>\n\n<p>\n<a href=\"/issue.php?doi=10.1257/jep.26.2\">Spring
+        2012</a> -- Vol. 26, No. 2<br/>\n<a href=\"/issue.php?doi=10.1257/jep.26.1\">Winter
+        2012</a> -- Vol. 26, No. 1<br/><br/>\n<a href=\"http://www.aeaweb.org/issue.php?doi=10.1257/jep.25.4\">Fall
+        2011</a> -- Vol. 25, No. 4<br/>\n<a href=\"http://www.aeaweb.org/issue.php?doi=10.1257/jep.25.3\">Summer
+        2011</a> -- Vol. 25, No. 3<br/>\n<a href=\"/issue.php?journal=JEP&volume=25&issue=2\">Spring
+        2011</a> -- Vol. 25, No. 2\n       <br/>\n<a href=\"/issue.php?journal=JEP&volume=25&issue=1\">Winter
+        2011</a> -- Vol. 25, No. 1\n       <br/><br/>\n<a href=\"/issue.php?journal=JEP&volume=24&issue=4\">Fall
+        2010</a> -- Vol. 24, No. 4<br/>\n  <a href=\"/issue.php?journal=JEP&amp;volume=24&amp;issue=3\">Summer
+        2010</a> -- Vol. 24, No. 3<br />\n  <a href=\"/issue.php?journal=JEP&volume=24&issue=2\">Spring
+        2010</a> -- Vol. 24, No. 2\n       <br/>\n                <a href=\"/issue.php?journal=JEP&volume=24&issue=1\">Winter
+        2010</a> -- Vol. 24, No. 1\n       <br/><br/> \n\n<a href=\"/issue.php?journal=JEP&volume=23&issue=4\">Fall
+        2009</a> -- Vol. 23, No. 4<br/>\n<a href=\"/issue.php?journal=JEP&amp;volume=23&amp;issue=3\">Summer
+        2009</a> -- Vol. 23, No. 3<br/>\n<a href=\"/issue.php?journal=JEP&amp;volume=23&amp;issue=2\">Spring
+        2009</a> -- Vol. 23, No. 2<br/>\n<a href=\"/issue.php?journal=JEP&amp;volume=23&amp;issue=1\">Winter
+        2009</a> -- Vol. 23, No. 1<br />\n    <a href=\"/issue.php?journal=JEP&volume=22&issue=4\"><br
+        />\n    Fall 2008</a> -- Vol. 22, No. 4<br>\n      <a href=\"/issue.php?journal=JEP&volume=22&issue=3\">Summer
+        2008</a> -- Vol. 22, No. 3<br>\n      <a href=\"/issue.php?journal=JEP&volume=22&issue=2\">Spring
+        2008</a> -- Vol. 22, No. 2<br>\n      <a href=\"/issue.php?journal=JEP&volume=22&issue=1\">Winter
+        2008</a> -- Vol. 22, No. 1</p>\n<p>\n<a href=\"/issue.php?journal=JEP&volume=21&issue=4\">Fall
+        2007</a> -- Vol. 21, No. 4<br />\n<a href=\"/issue.php?journal=JEP&volume=21&issue=3\">Summer
+        2007</a> -- Vol. 21, No. 3<br />\n<a href=\"/issue.php?journal=JEP&volume=21&issue=2\">Spring
+        2007</a> -- Vol. 21, No. 2<br />\n<a href=\"/issue.php?journal=JEP&volume=21&issue=1\">Winter
+        2007</a> -- Vol. 21, No. 1</p>\n<p>\n<a href=\"/issue.php?journal=JEP&volume=20&issue=4\">Fall
+        2006</a> -- Vol. 20, No. 4<br />\n<a href=\"/issue.php?journal=JEP&volume=20&issue=3\">Summer
+        2006</a> -- Vol. 20, No. 3<br />\n<a href=\"/issue.php?journal=JEP&volume=20&issue=2\">Spring
+        2006</a> -- Vol. 20, No. 2<br />\n<a href=\"/issue.php?journal=JEP&volume=20&issue=1\">Winter
+        2006</a> -- Vol. 20, No. 1</p>\n<p align=\"left\">\n<a href=\"/issue.php?journal=JEP&volume=19&issue=4\">Fall
+        2005</a> -- Vol. 19, No. 4<br />\n<a href=\"/issue.php?journal=JEP&volume=19&issue=3\">Summer
+        2005</a> -- Vol. 19, No. 3<br />\n<a href=\"/issue.php?journal=JEP&volume=19&issue=2\">Spring
+        2005</a> -- Vol. 19, No. 2<br />\n<a href=\"/issue.php?journal=JEP&volume=19&issue=1\">Winter
+        2005</a> -- Vol. 19, No. 1</p>\n\n<p align=\"left\">\n<a href=\"/issue.php?journal=JEP&volume=18&issue=4\">Fall
+        2004</a> -- Vol. 18, No. 4<br />\n<a href=\"/issue.php?journal=JEP&volume=18&issue=3\">Summer
+        2004</a> -- Vol. 18, No. 3<br />\n<a href=\"/issue.php?journal=JEP&volume=18&issue=2\">Spring
+        2004</a> -- Vol. 18, No. 2<br />\n<a href=\"/issue.php?journal=JEP&volume=18&issue=1\">Winter
+        2004</a> -- Vol. 18, No. 1</p>\n\n<p align=\"left\">\n<a href=\"/issue.php?journal=JEP&volume=17&issue=4\">Fall
+        2003</a> -- Vol. 17, No. 4<br />\n<a href=\"/issue.php?journal=JEP&volume=17&issue=3\">Summer
+        2003</a> -- Vol. 17, No. 3<br />\n<a href=\"/issue.php?journal=JEP&volume=17&issue=2\">Spring
+        2003</a> -- Vol. 17, No. 2<br />\n<a href=\"/issue.php?journal=JEP&volume=17&issue=1\">Winter
+        2003</a> -- Vol. 17, No. 1</p>\n\n<p align=\"left\">\n<a href=\"/issue.php?journal=JEP&volume=16&issue=4\">Fall
+        2002</a> -- Vol. 16, No. 4<br />\n<a href=\"/issue.php?journal=JEP&volume=16&issue=3\">Summer
+        2002</a> -- Vol. 16, No. 3<br />\n<a href=\"/issue.php?journal=JEP&volume=16&issue=2\">Spring
+        2002</a> -- Vol. 16, No. 2<br />\n<a href=\"/issue.php?journal=JEP&volume=16&issue=1\">Winter
+        2002</a> -- Vol. 16, No. 1<br />\n</p>\n\n<p align=\"left\">\n  <a href=\"/issue.php?journal=JEP&volume=15&issue=4\">Fall
+        2001</a> -- Vol. 15, No. 4<br />\n  <a href=\"/issue.php?journal=JEP&volume=15&issue=3\">Summer
+        2001</a> -- Vol. 15, No. 3<br />\n  <a href=\"/issue.php?journal=JEP&volume=15&issue=2\">Spring
+        2001</a> -- Vol. 15, No. 2<br />\n  <a href=\"/issue.php?journal=JEP&volume=15&issue=1\">Winter
+        2001</a> -- Vol. 15, No. 1</p>\n<p align=\"left\">\n  <a href=\"/issue.php?journal=JEP&volume=14&issue=4\">Fall
+        2000</a> -- Vol. 14, No. 4<br />\n  <a href=\"/issue.php?journal=JEP&volume=14&issue=3\">Summer
+        2000</a> -- Vol. 14, No. 3<br />\n  <a href=\"/issue.php?journal=JEP&volume=14&issue=2\">Spring
+        2000</a> -- Vol. 14, No. 2<br />\n  <a href=\"/issue.php?journal=JEP&volume=14&issue=1\">Winter
+        2000</a> -- Vol. 14, No. 1</p>\n\n<p align=\"left\">\n  <a href=\"/issue.php?journal=JEP&volume=13&issue=4\">Fall
+        1999</a> -- Vol. 13, No. 4<br />\n  <a href=\"/issue.php?journal=JEP&volume=13&issue=3\">Summer
+        1999</a> -- Vol. 13, No. 3<br />\n  <a href=\"/issue.php?journal=JEP&volume=13&issue=2\">Spring
+        1999</a> -- Vol. 13, No. 2<br />\n  <a href=\"/issue.php?journal=JEP&volume=13&issue=1\">Winter
+        1999</a> -- Vol. 13, No. 1</p>\n  \n\n<p align=\"left\">\n  <a href=\"/issue.php?journal=JEP&volume=12&issue=4\">Fall
+        1998</a> -- Vol. 12, No. 4<br />\n  <a href=\"/issue.php?journal=JEP&volume=12&issue=3\">Summer
+        1998</a> -- Vol. 12, No. 3<br />\n  <a href=\"/issue.php?journal=JEP&volume=12&issue=2\">Spring
+        1998</a> -- Vol. 12, No. 2<br />\n  <a href=\"/issue.php?journal=JEP&volume=12&issue=1\">Winter
+        1998</a> -- Vol. 12, No. 1\n  </p>\n  <p align=\"left\">\n  <a href=\"/issue.php?journal=JEP&volume=11&issue=4\">Fall
+        1997</a> -- Vol. 11, No. 4<br />\n  <a href=\"/issue.php?journal=JEP&volume=11&issue=3\">Summer
+        1997</a> -- Vol. 11, No. 3<br />\n  <a href=\"/issue.php?journal=JEP&volume=11&issue=2\">Spring
+        1997</a> -- Vol. 11, No. 2<br />\n  <a href=\"/issue.php?journal=JEP&volume=11&issue=1\">Winter
+        1997</a> -- Vol. 11, No. 1\n  </p>\n <p align=\"left\">\n  <a href=\"/issue.php?journal=JEP&volume=10&issue=4\">Fall
+        1996</a> -- Vol. 10, No. 4<br />\n  <a href=\"/issue.php?journal=JEP&volume=10&issue=3\">Summer
+        1996</a> -- Vol. 10, No. 3<br />\n  <a href=\"/issue.php?journal=JEP&volume=10&issue=2\">Spring
+        1996</a> -- Vol. 10, No. 2<br />\n  <a href=\"/issue.php?journal=JEP&volume=10&issue=1\">Winter
+        1996</a> -- Vol. 10, No. 1\n  </p>\n\n <p align=\"left\">\n  <a href=\"/issue.php?journal=JEP&volume=9&issue=4\">Fall
+        1995</a> -- Vol. 9, No. 4<br />\n  <a href=\"/issue.php?journal=JEP&volume=9&issue=3\">Summer
+        1995</a> -- Vol. 9,\n No. 3<br />\n  <a href=\"/issue.php?journal=JEP&volume=9&issue=2\">Spring
+        1995</a> -- Vol. 9,\n No. 2<br />\n  <a href=\"/issue.php?journal=JEP&volume=9&issue=1\">Winter
+        1995</a> -- Vol. 9,\n No. 1\n  </p>\n <p align=\"left\">\n  <a href=\"/issue.php?journal=JEP&volume=8&issue=4\">Fall
+        1994</a> -- Vol. 8, No. 4<br />\n  <a href=\"/issue.php?journal=JEP&volume=8&issue=3\">Summer
+        1994</a> -- Vol. 8,\n No. 3<br />\n  <a href=\"/issue.php?journal=JEP&volume=8&issue=2\">Spring
+        1994</a> -- Vol. 8,\n No. 2<br />\n  <a href=\"/issue.php?journal=JEP&volume=8&issue=1\">Winter
+        1994</a> -- Vol. 8,\n No. 1\n  </p>\n\n  \n      </td>\n\n </td>\n     <td
+        id=\"columnRight\">\n    <form id=\"formRt\" name=\"formRt\" method=\"post\"
+        action=\"\">\n   \t<div id=\"textRt\"><label>Search</label></div>\n        \t<select
+        id=\"search\" style=\"font-size:9px;\">\n    \t\t<option value=\"/articles_search.php\">Journal
+        Articles</option>\n    \t\t<option value=\"/rfe/rfe_search.php\">Resources
+        for Economists</option>\n    \t\t<option value=\"/econlit/efm\">EconLit for
+        Members</option>\n   <!-- \t\t<option value=\"/clusty.php\">AEAweb - Cluster</option>
+        -->\n\t\t\t<option value=\"/search.php\">Site Search - Google</option>   \n
+        \   \t</select> <input type=\"button\" value=\"\" class=\"btnGoRt\"\n    \t\tonmouseover=\"this.className='btnGoRt
+        btnRtHov'\"\n    \t\tonmouseout=\"this.className='btnGoRt'\"\n    \t\tonclick=\"top.location.href
+        = document.getElementById('search').value;\" />\n    \t<br />\n\t</form>       <form
+        id=\"formRt\" action=\"/quicklink.php\" method=\"post\" name=\"quick_links_form\"
+        target=\"_top\">\n   \t<div id=\"textRt\"><label>Quick Links</label></div>\n
+        \       <form action=\"/quicklink.php\" method=\"post\" name=\"quick_links_form\"
+        target=\"_top\">\n    <select name=\"ql_url\" size=\"1\" style=\"font-size:9px;\">\n
+        \   <option value=\"http://www.aeaweb.org/students/WhatIsEconomics.php\">What
+        is Economics?</option>\n    <option value=\"http://www.aeaweb.org/students/Careers.php\">Careers
+        in Economics</option>\n    <option value=\"http://www.aeaweb.org/jel/guide/\">JEL
+        Classifications Guide</option>\n    <option value=\"http://www.aeaweb.org/aea/2011conference/program/preliminary.php\">Annual
+        Meeting Program</option>\n    <option value=\"http://www.aeaweb.org/econlit/journal_list.php\">EconLit
+        Journal List</option>\n    <option value=\"http://www.aeaweb.org/RFE/conferences.php\">RFE:
+        Conference Listings</option>\n    <option value=\"http://www.aeaweb.org/funding/funding.php\">Funding/Grant
+        Info</option>\n<!--    <option value=\"http://www.aeaweb.org/\">12345678901234567890</option>
+        -->\n    </select>\n    <input name=\"quicklink\" type=\"hidden\" value=\"request\"
+        />\n <!--   <input name=\"ql\" type=\"submit\" value=\"Go\"  style=\"font-size:10px;\"
+        /> -->\n<input type=\"submit\" value=\"\" class=\"btnGoRt\"\n    \t\tonmouseover=\"this.className='btnGoRt
+        btnRtHov'\"\n    \t\tonmouseout=\"this.className='btnGoRt'\" >\n<br /><br
+        />\n    </form>\n      <p class=\"colRtBox\"><u>The Journal of Economic Perspectives</u></p>\n
+        \     <p class=\"columnRightDots\"><a href=\"/jep/JEP_2011_Report.pdf\"><b>Report
+        of the Editor</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/jep/contact.php\"><b>Editors
+        and Contacts</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/jep/edpolicy.php\"><b>Editorial
+        Policy</b></a></p>\n<p class=\"columnRightDots\"><a href=\"/aea_journals/AEA_Disclosure_Policy.pdf\"><b>AEA
+        Disclosure Policy</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/jep/submissions.php\"><b>Submitting
+        Paper Proposals</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/subscribe.php\"><b>Institutional
+        Subscription</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/membership.php\"><b>Member
+        Print Subscription</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/permissions.php\"><b>Copyright
+        & Reprint Permissions</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/jep/notes/index.php\"><b>JEP
+        Notes</b></a></p>      \n      <p><a href=\"/bulletinboard.php\"><b>Bulletin
+        Board</b></a></p>\n      <div class=\"colRtTint\">\n      <p class=\"colRtBox\">Issues
+        and Articles</p>\n      \n      <p class=\"columnRightDots\"><a href=\"/issue.php?journal=JEP&volume=26&issue=2\"><b>Spring
+        2012 JEP</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/jep/contents/index.php\"><b>Previous
+        Issues</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/articles_search.php\"><b>Search
+        Articles</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/jep/mobile.php\"><b>Kindle
+        and e-Reader Full Issue Downloads</b></a></p>\n      <p class=\"colRtBox\">Tools</p>\n
+        \     <p class=\"columnRightDots\"><a href=\"/notify/notify.html\"><b>eTOC
+        Alert for JEP</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/jep/contents/sgml.php\"><b>SGML
+        Encoded Citations</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"/virtual/login.php\"><b>Virtual
+        Field Journals</b></a></p>\n      <p class=\"columnRightDots\"><a href=\"https://auth.athensams.net/?ath_returl=http%3A%2F%2Fpubs.aeaweb.org%2Faction%2FathensAuthenticate%3FcurrUrl%3D%252F&ath_dspid=AEA\"><b>Athens
+        Login</b> (for Athens Subscribers only)</a></p>\n      <p class=\"colRtBox\">Announcements!</p>\n
+        \     <p class=\"columnRightDots\"><a href=\"/jep/mobile.php\">Kindle and
+        other e-reader versions of <em>JEP</em> now available FREE at the AEA website
+        or, for instant wireless delivery, purchase <em>JEP</em> at Amazon.com!</a></p>
+        \n      <p class=\"columnRightDots\">Online issues of the <em>Journal of Economic
+        Perspectives</em> published since 1994\nare now publicly accessible at no
+        charge, compliments of the American\nEconomic Association.</p>\n      <p class=\"columnRightDots\">John
+        A. List (University of Chicago) has joined the <i>Journal of Economic Perspectives</i>
+        as a co-editor.</p>\n      <p class=\"columnRightDots\">David Autor (MIT)
+        has succeeded Andrei Shleifer (Harvard) as editor\nof the <i>Journal of Economic
+        Perspectives</i>.</p>\n     </div>\n     <p><a href=\"mailto:info@econlit.org\">Contact
+        Us</a></p>\n</td>\n    </tr>\n\n    <tr>\n      <td colspan=\"3\" id=\"footer1\">\n
+        \     <ul id=\"footer2\">\n        <li id=\"footerLftBorder\"><a href=\"http://www.vanderbilt.edu/AEA/\">AEA</a></li>\n<li><a
+        href=\"/aea_journals.php\">Journals</a></li>\n<li><a href=\"/Annual_Meeting/\">Annual
+        Meeting</a></li>\n        <li><a href=\"/econlit/index.php\">EconLit</a></li>\n
+        \       <li><a href=\"/rfe/\">RFE</a></li>\n        <li><a href=\"/joe/\">JOE</a></li>\n
+        \       <li><a href=\"/membership.php\">Members</a></li>\n      </ul>\n      </td>\n
+        \   </tr>\n  </table>\n  </div>\n  <div id=\"copyright\">&copy;  2012 AEA.
+        The American Economic Association is hosted by Vanderbilt University.</div>\n</div>\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Sun, 17 Jun 2012 06:04:54 GMT
+recorded_with: VCR 2.2.2

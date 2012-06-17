@@ -1,6 +1,8 @@
 require File.expand_path('spec/spec_helper')
 
 describe Journal do
+  use_vcr_cassette record: :new_episodes
+
   let(:journal) { Journal.new name: "google", url: "http://www.google.com" }
   context "initialization" do
     it "should set attributes" do
@@ -19,25 +21,29 @@ describe Journal do
     end
   end
 
-  context "accessing external url" do
-    use_vcr_cassette
+  context "Fixture: a JEP journal" do
+    let(:jep) { Journal.jep }
 
-    it "should work" do
-      require 'net/http'
-      response = Net::HTTP.get('www.google.com', '/')
-      response.should include "google.com"
-    end
-  end
-
-  describe "#get_issues" do
-    let(:jep_journal) { Journal.new name: "Journal of Economic Perspectives", url: "http://www.aeaweb.org/jep/contents/index.php" }
-    before do
-      @agent = Mechanize.new
+    it "should be a Mechanize::Page" do
+      jep.homepage.class.should == Mechanize::Page
     end
 
-    it "should return issues" do
-      issues = journal.get_issues
-      issues.class.should == Array
+    describe "#get_issues" do
+      let(:issues) { jep.issues }
+
+      context "first issue" do
+        it "should contain June 2012 -- Vol. 102, No. 4 and has the correct link" do
+          issues[0].name.should == "Spring 2012 -- Vol. 26, No. 2"
+          issues[0].url.should  == "http://www.aeaweb.org/issue.php?doi=10.1257/jep.26.2"
+        end
+      end
+
+      context "last issue" do
+        specify do
+          issues.last.name.should == "Winter 1994 -- Vol. 8, No. 1"
+          issues.last.url.should == "http://www.aeaweb.org/issue.php?journal=JEP&volume=8&issue=1"
+        end
+      end
     end
   end
 end
