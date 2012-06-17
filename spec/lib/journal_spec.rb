@@ -18,4 +18,14 @@ describe Journal do
       journal.mkdir
     end
   end
+
+  context "accessing external url" do
+    use_vcr_cassette
+
+    it "should work" do
+      require 'net/http'
+      response = Net::HTTP.get('www.google.com', '/')
+      response.should include "google.com"
+    end
+  end
 end

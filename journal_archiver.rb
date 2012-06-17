@@ -1,3 +1,4 @@
+require 'bundler/setup'
 require_relative 'lib/journal'
 require_relative 'lib/issue'
 
