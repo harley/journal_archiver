@@ -5,8 +5,8 @@ class Journal
     if args.is_a? Hash
       @name = args[:name]
       @url  = args[:url]
-      @agent = Mechanize.new
     elsif args.is_a? Array
+      # added this because i'm lazy
       @name, @url = args
     else
       puts "UNSUPPORTED: #{args.inspect}"
@@ -33,19 +33,16 @@ class Journal
   end
 
   def issue_links
-    @issue_links = middle_column.search("a").select{|a| a['href'] =~ issue_link_pattern }
+    @issue_links ||= middle_column.search("a").select{|a| a['href'] =~ issue_link_pattern }
   end
 
   def issues
-    @issues = []
     issue_links.map do |a|
       name = "#{a.text}#{a.next.text if a.next}"
       # sanitize name first
       name = name.strip.gsub("\n", "")
-      @issues.push Issue.new name: name,
-                              url: URI.join(host, a['href']).to_s
+      Issue.new(name: name, url: URI.join(host, a['href']).to_s)
     end
-    @issues
   end
 
   # FOR TESTING

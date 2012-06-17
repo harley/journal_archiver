@@ -1,13 +1,16 @@
 class Archiver
-  attr_accessor :journal
+  attr_accessor :journal, :base_dir
 
-  def initialize(journal)
-    @journal = journal
-    @agent = journal.agent
+  def initialize(journal, output_dir = "output")
+    @journal  = journal
+    @base_dir = output_dir
   end
 
-  def base_dir
-    "output"
+  def sanitize_filename(name)
+    name = name.strip.squeeze(" ")
+    name.gsub! /[\/\\]/, '-'
+    # may need to do more replacement here if any filename error is found later
+    name
   end
 
   def journal_dir
